@@ -11,19 +11,19 @@
 * [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/Heap.html) δημιουργίας σωρού ελαχίστων (MINHEAP) με τη διαδικασία heapify: χρησιμοποιήστε το πλήκτρο **BuildHeap** για τη δημιουργία ενός σωρού ελαχίστων από έναν πίνακα 31 τιμών με τους ακέραιους από 1 μέχρι και 31
 * [Οπτικοποίηση](http://btv.melezinek.cz/binary-heap.html) λειτουργιών insert, delete, heapsort, buildheap σε σωρό μεγίστων (MAXHEAP) 
 
-**Ουρά προτεραιότητας στην Python**
+**Ουρές προτεραιότητας στην Python**
 
 [heapq](https://docs.python.org/3/library/heapq.html)
 
 Παράδειγμα: [heapq_example.py](./heapq_example.py)
 
-**Ουρά προτεραιότητας στην C++**
+**Ουρές προτεραιότητας στην C++**
 
 [std::priority_queue](https://en.cppreference.com/w/cpp/container/priority_queue)
 
 Παράδειγμα: [priority_queue_example.cpp](./priority_queue_example.cpp)
 
-**Ουρά προτεραιότητας στην Java**
+**Ουρές προτεραιότητας στην Java**
 
 [PriorityQueue\<E\>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/PriorityQueue.html)
 
@@ -60,12 +60,6 @@
 
 ### Συναρτήσεις κατακερματισμού
 
-**Συναρτήσεις κατακερματισμού για δομές δεδομένων**
-
-* [General Purpose Hash Function Algorithms](http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFunctions)
-* [djb2, sdbm](http://www.cse.yorku.ca/~oz/hash.html)
-<!-- * [FNV](http://www.isthe.com/chongo/tech/comp/fnv/) -->
-
 **Κρυπτογραφικές συναρτήσεις κατακερματισμού**
 
 * [SHA256 Hash by Blockchain Demo](https://andersbrownworth.com/blockchain/hash)
@@ -76,7 +70,16 @@
 * [interactive_py_hash.py](./interactive_py_hash.py)
 * [interactive_py_hash2.py](./interactive_py_hash2.py) κρυπτογραφικες συναρτήσεις κατακερματσιμού με το module hashlib
 
-### Ανοικτή διευθυνσιοδότηση (open addressing) - κλειστός κατακερματισμός (closed hashing)
+**Μη κρυπτογραφικές συναρτήσεις κατακερματισμού (χρήση σε δομές δεδομένων)**
+
+* [General Purpose Hash Function Algorithms](http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFunctions)
+* [djb2, sdbm](http://www.cse.yorku.ca/~oz/hash.html)
+* [FNV](http://www.isthe.com/chongo/tech/comp/fnv/)
+* [murmur](https://www.sderosiaux.com/articles/2017/08/26/the-murmur3-hash-function--hashtables-bloom-filters-hyperloglog/)
+
+### Ανοικτή διευθυνσιοδότηση (open addressing) 
+
+Η ανοικτή διευνσιοδότηση είναι γνωστή και ως κλειστός κατακερματισμός (closed hashing)
 
 * [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html) ανοικτής διευθυνσιοδότησης
 
@@ -87,10 +90,11 @@
 * Διπλός κατακερματισμός (double hashing)
 * Τυχαίος κατακερματισμός (random hashing)
 
-### Κλειστή διευθυνσιοδότηση (closed adressing) - ανοικτός κατακερματισμός (open hashing) - ξεχωριστή αλυσίδωση (separate chaining)
+### Κλειστή διευθυνσιοδότηση (closed adressing)
+
+Η κλειστή διευθυνσιοδότησης είναι γνωστή και ως ανοικτός κατακερματισμός (open hashing) και ως ξεχωριστή αλυσίδωση (separate chaining)
 
 * [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/OpenHash.html) κλειστής διευθυνσιοδότησης
-
 
 ### Κατακερματισμός κούκου
 
@@ -108,5 +112,6 @@
 ## Συνδυαστικές ασκήσεις
 
 1. Δίνεται μια ακολουθία μεγάλου μεγέθους με τυχαίες ακέραιες τιμές. Ζητείται να βρεθούν οι 10 πλέον συχνές τιμές χρησιμοποιώντας μια ουρά προτεραιότητας. Αναζητήστε την αποδοτικότερη λύση. Γράψτε πρόγραμμα που να υλοποιεί τη λύση.
+   
 <!-- * [heap_exercise1a.py](./heap_exercise1a.py)
 * [heap_exercise1b.py](./heap_exercise1b.py) -->
