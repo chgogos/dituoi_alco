@@ -18,7 +18,6 @@ for c in GREEK_CAPS:
 
 for c in text:
     c = c.upper()
-    print(c)
     if c not in GREEK_CAPS:
         continue
     a_dict[c] += 1
