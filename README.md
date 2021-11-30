@@ -2,7 +2,7 @@
 
 Γκόγκος Χρήστος @ Τμήμα Πληροφορικής και Τηλεπικοινωνιών, Άρτα, Πανεπιστήμιο Ιωαννίνων
 
-Τελευταία ενημέρωση: 26/11/2021
+Τελευταία ενημέρωση: 30/11/2021
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -16,6 +16,14 @@
 * [Κεφάλαιο 8Α](./resources/ada_book/ch08/MergeSort_gr.pdf)
 * [Κεφάλαιο 8Β](./resources/ada_book/ch08/QuickSort_gr.pdf)
 * [Κεφάλαιο 8Γ](./resources/ada_book/ch08/SortingLowerBound_gr.pdf)
+* [Κεφάλαιο 10](./resources/ada_book/ch10_gr.pdf)
+
+## Εργασίες μαθήματος ακαδημαϊκού έτους 2021-2022
+
+* [1η εργασία - MAXSUBARRAY](./assignments/2021-2022-prj1/2021f_project1.pdf)
+  * [Λύση](./assignments/2021-2022-prj1-sol/README.md)
+* [2η εργασία - ΛΑΒΥΡΙΝΘΟΣ (ξένα σύνολα, αναζήτηση κατά πλάτος)](./assignments/2021-2022-prj2/2021f_project2.pdf)
+* 3η εργασία
 
 <!-- ## 1. Ανάλυση αλγορίθμων -->
 
@@ -71,13 +79,14 @@
 
 **Λεξικά στην Python**
 
-[dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), [υλοποίηση των dictionaries στην Python](https://stackoverflow.com/questions/327311/how-are-pythons-built-in-dictionaries-implemented)
+* [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+* [υλοποίηση των dictionaries στην Python](https://stackoverflow.com/questions/327311/how-are-pythons-built-in-dictionaries-implemented)
+* [The python corner - Python Hash Tables: Understanding dictionaries ](https://thepythoncorner.com/posts/2020-08-21-hash-tables-understanding-dictionaries/)
 
-Παράδειγμα: [dictionary_example.py](./dictionary_example.py) 
 
 **Μη διατεταγμένοι χάρτες στην C++**
 
-[unordered_map](https://en.cppreference.com/w/cpp/container/unordered_map)
+* [unordered_map](https://en.cppreference.com/w/cpp/container/unordered_map)
 
 Παράδειγμα: [unordered_map_example.cpp](./unordered_map_example.cpp)
 
@@ -152,6 +161,9 @@
    * Λύση: [hash_exercise3.py](./hash_exercise3.py)
 4. Γράψτε ένα πρόγραμμα που να δέχεται έναν πίνακα διακριτών ακεραίων τιμών και να εμφανίζει τον αριθμό κατάταξης κάθε τιμής του πίνακα (π.χ. για τον πίνακα [17, 13, 21, 19] να επιστρέφει [2, 1, 4, 3])
     * Λύση: [hash_exercise4.py](./hash_exercise4.py)
+5. Γράψτε ένα πρόγραμμα που να υπολογίζει το πλήθος εμφανίσεων των ελληνικών γραμμάτων (Α-Ω, χωρίς διάκριση σε κεφαλαία ή μικρά) σε ένα δεδομένο κείμενο.
+   * Λύση: [hash_exercise5.py](./hash_exercise5.py) 
+
 
 ## 7. Δομές Ένωσης-Εύρεσης (disjoint sets)
 
