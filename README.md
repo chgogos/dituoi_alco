@@ -167,7 +167,7 @@
 
 ## 7. Δομές Ένωσης-Εύρεσης (disjoint sets)
 
-* [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/DisjointSets.html) 
+* [Οπτικοποίηση δομής ένωσης-εύρεσης](https://www.cs.usfca.edu/~galles/visualization/DisjointSets.html) 
 
 **Ασκήσεις**
 
