@@ -12,3 +12,6 @@ for e in sorted(d.keys()):
     rank += 1
     
 print(input)
+
+# [17, 13, 21, 19, 5]
+# [3, 2, 5, 4, 1]

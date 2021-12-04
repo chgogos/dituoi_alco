@@ -41,3 +41,5 @@ def mergeSort(myList):
 myList = [54,26,93,17,77,31,44,55,20]
 mergeSort(myList)
 print(myList)
+
+# [17, 20, 26, 31, 44, 54, 55, 77, 93]

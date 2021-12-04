@@ -8,3 +8,5 @@ nums = [random.randint(1, M) for _ in range(N)]
 
 nums = set(nums)
 print(len(nums))
+
+# 631828

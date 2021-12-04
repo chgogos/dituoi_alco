@@ -32,3 +32,31 @@ int main()
 
     return 0;
 }
+
+
+// Letter = A occurences 28
+// Letter = B occurences 2
+// Letter = C occurences 24
+// Letter = D occurences 10
+// Letter = E occurences 48
+// Letter = F occurences 10
+// Letter = G occurences 7
+// Letter = H occurences 17
+// Letter = I occurences 41
+// Letter = J occurences 1
+// Letter = K occurences 2
+// Letter = L occurences 20
+// Letter = M occurences 13
+// Letter = N occurences 28
+// Letter = O occurences 31
+// Letter = P occurences 9
+// Letter = Q occurences 0
+// Letter = R occurences 16
+// Letter = S occurences 25
+// Letter = T occurences 35
+// Letter = U occurences 5
+// Letter = V occurences 6
+// Letter = W occurences 4
+// Letter = X occurences 2
+// Letter = Y occurences 1
+// Letter = Z occurences 1
