@@ -2,7 +2,7 @@
 
 Γκόγκος Χρήστος @ Τμήμα Πληροφορικής και Τηλεπικοινωνιών, Άρτα, Πανεπιστήμιο Ιωαννίνων
 
-Τελευταία ενημέρωση: 16/12/2021
+Τελευταία ενημέρωση: 3/1/2022
 
 **~~Πρόοδος στις 9/12/2021~~**
 
@@ -23,17 +23,18 @@
 * [Κεφάλαιο 10](./resources/ada_book/ch10_gr.pdf)
 * [Κεφάλαιο 11](./resources/ada_book/ch11_gr.pdf)
 * [Κεφάλαιο 12Α](./resources/ada_book/ch12/DynamicProgramming_gr.pdf)
-* [Κεφάλαιο 12Β](./resources/ada_book/ch12/Knapsack_gr.pdf)
+* [Κεφάλαιο 12Β](./resources/ada_book/ch12/LCS_gr.pdf)
+* [Κεφάλαιο 12Γ](./resources/ada_book/ch12/Knapsack_gr.pdf)
 * [Κεφάλαιο 13Α](./resources/ada_book/ch13/Graph_gr.pdf)
 * [Κεφάλαιο 13Β](./resources/ada_book/ch13/DFS_gr.pdf)
 * [Κεφάλαιο 13Γ](./resources/ada_book/ch13/BFS_gr.pdf)
 
 ## Εργασίες μαθήματος ακαδημαϊκού έτους 2021-2022
 
-* [1η εργασία - MAXSUBARRAY](./assignments/2021-2022-prj1/2021f_project1.pdf)
+* [1η εργασία - MAXSUBARRAY](./assignments/2021-2022-prj1/2021f_project1.pdf) προθεσμία μέχρι ~~21/11/2021~~
   * [Λύση](./assignments/2021-2022-prj1-sol/README.md)
-* [2η εργασία - ΛΑΒΥΡΙΝΘΟΣ (ξένα σύνολα, αναζήτηση κατά πλάτος)](./assignments/2021-2022-prj2/2021f_project2.pdf)
-* 3η εργασία
+* [2η εργασία - ΛΑΒΥΡΙΝΘΟΣ (ξένα σύνολα, αναζήτηση κατά πλάτος)](./assignments/2021-2022-prj2/2021f_project2.pdf) προθεσμία μέχρι ~~23/12/2021~~
+* [3η εργασία - Longest Common Subsequence](./assignments/2021-2022-prj3/2021f_project3.pdf) προθεσμία μέχρι 23/1/2022
 
 ## 1. Ανάλυση αλγορίθμων
 
