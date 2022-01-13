@@ -221,13 +221,7 @@
 
 * Διάσχιση γράφου πρώτα κατά πλάτος, διάσχιση γράφου πρώτα κατά βάθος
    * [graph_traversal.py](./graph_traversal.py) διάσχιση μη κατευθυνόμενου γράφου 
-* Συντομότερες διαδρομές
-  * Αλγόριθμος του Dijkstra
-  * Αλγόριθμος των Bellman Ford
-  * Αλγόριθμος των Floyd-Warshall
-* Ελάχιστα συνεκτικά δένδρα
-  * Αλγόριθμος του Prim
-  * Αλγόριθμος του Kruskal
+   * [IDEA graph scan](https://idea-instructions.com/graph-scan/)
 
 **Ακυκλικοί κατευθυνόμενοι γράφοι (Directed Acyclic Graphs)**
 
@@ -238,6 +232,18 @@
 
 * [mazelib](https://github.com/john-science/mazelib) βιβλιοθήκη στην python για λαβυρίνθους
 * [pyamaze](https://github.com/MAN1986/pyamaze) βιβλιοθήκη στην python για λαβυρίνθους
+
+## 14. Συντομότερα μονοπάτια
+
+  * Αλγόριθμος του Dijkstra
+  * Αλγόριθμος των Bellman-Ford
+  * Αλγόριθμος των Floyd-Warshall (DP)
+
+## 15. Ελάχιστα συνεκτικά δέντρα
+
+  * Αλγόριθμος των Prim-Jarnik
+  * Αλγόριθμος του Kruskal
+  * Αλγόριθμος του Borůvka
 
 ---
 
