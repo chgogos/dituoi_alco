@@ -2,7 +2,7 @@
 
 Γκόγκος Χρήστος @ Τμήμα Πληροφορικής και Τηλεπικοινωνιών, Άρτα, Πανεπιστήμιο Ιωαννίνων
 
-Τελευταία ενημέρωση: 20/1/2022
+Τελευταία ενημέρωση: 21/1/2022
 
 * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
 * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
@@ -205,22 +205,33 @@
 
 ## 11. Διαίρει και βασίλευε
 
-Διάφορα προβλήματα στα οποία εφαρμόζεται η τεχνική ``διαίρει και βασίλευε'': δυαδική αναζήτηση, Merge-Sort, Quick-Sort, [πολλαπλασιασμός ακεραίων Karatsuba](https://brilliant.org/wiki/karatsuba-algorithm/), [πολλαπλασιασμός πινάκων Strassen](https://www.interviewbit.com/blog/strassens-matrix-multiplication/), [σύνολο μεγίστων (maxima set)](https://en.wikipedia.org/wiki/Maxima_of_a_point_set).
+Διάφορα προβλήματα στα οποία εφαρμόζεται η τεχνική "διαίρει και βασίλευε": δυαδική αναζήτηση, Merge-Sort, Quick-Sort, [πολλαπλασιασμός ακεραίων Karatsuba](https://brilliant.org/wiki/karatsuba-algorithm/), [πολλαπλασιασμός πινάκων Strassen](https://www.interviewbit.com/blog/strassens-matrix-multiplication/), [σύνολο μεγίστων (maxima set)](https://en.wikipedia.org/wiki/Maxima_of_a_point_set).
 
-Το [μάστερ θεώρημα](https://brilliant.org/wiki/master-theorem/)
+* Το [μάστερ θεώρημα](https://brilliant.org/wiki/master-theorem/)
+  * [Online επιλυτής](https://www.nayuki.io/page/master-theorem-solver-javascript )
 
 ## 12. Δυναμικός προγραμματισμός
 
-Διάφορα προβλήματα στα οποία εφαρμόζεται η τεχνική του ``δυναμικού προγραμματισμού'': 
+Υπολογισμός όλων των υποακολουθιών συμβολοσειράς με Ωμή Δύναμη
 
-* γινόμενα αλυσίδας πινάκων
-* προγραμματισμός τηλεσκοπίων
-* μέγιστη κοινή υποακολουθία (longest common subsequence)
-* πρόβλημα 0-1 σακιδίου (0-1 knapsack) 
-* αλγόριθμος των Floyd-Warshall εύρεσης συντομότερων διαδρομών για όλα τα ζεύγη κορυφών σε γράφο 
+* [subsequences1.py](./subsequences1.py) με πράξεις σε δυαδικούς αριθμούς 
+* [subsequences2.py](./subsequences2.py) επαναληπτικά
+* [subsequences3.py](./subsequences3.py) αναδρομικά
+* [subsequences4.py](./subsequences4.py) με χρήση του itertools
+
+Διάφορα προβλήματα στα οποία εφαρμόζεται η τεχνική του "δυναμικού προγραμματισμού": 
+
+* Μέγιστη κοινή υποακολουθία (longest common subsequence)
+* Γινόμενα αλυσίδας πινάκων
+* Προγραμματισμός τηλεσκοπίων (weighted job scheduling problem)
+* Πρόβλημα 0-1 σακιδίου (0-1 knapsack) 
+* Αλγόριθμος των Floyd-Warshall εύρεσης συντομότερων διαδρομών για όλα τα ζεύγη κορυφών σε γράφο  
 
 ## 13. Γράφοι
 
+* Αναπαράσταση γράφων
+   * Πίνακας γειτονικότητας
+   * Λίστα γειτονικότητας
 * Διάσχιση γράφου πρώτα κατά πλάτος, διάσχιση γράφου πρώτα κατά βάθος
    * [graph_traversal.py](./graph_traversal.py) διάσχιση μη κατευθυνόμενου γράφου 
    * [IDEA graph scan](https://idea-instructions.com/graph-scan/)
@@ -238,14 +249,16 @@
 
 ## 14. Συντομότερα μονοπάτια
 
-  * Αλγόριθμος του Dijkstra
-  * Αλγόριθμος των Bellman-Ford
-  * Αλγόριθμος των Floyd-Warshall (DP)
+  * Αλγόριθμοι single source shortest paths
+    * Αλγόριθμος του Dijkstra
+    * Αλγόριθμος των Bellman-Ford (DP)
+    * Αλγόριθμος εύρεσης συντομότερων μονοπατιών σε DAGs 
+  * Αλγόριθμος all pairs shortest paths των Floyd-Warshall (DP)
 
 ## 15. Ελάχιστα συνεκτικά δέντρα
 
-  * Αλγόριθμος των Prim-Jarnik
-  * Αλγόριθμος του Kruskal
+  * Αλγόριθμος των Prim-Jarnik (υλοποίηση με χρήση ουράς προτεραιότητας)
+  * Αλγόριθμος του Kruskal (υλοποίηση με χρήση ξένων συνόλων)
   * Αλγόριθμος του Borůvka
 
 ---
