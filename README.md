@@ -38,7 +38,7 @@
 * [1η εργασία - MAXSUBARRAY](./assignments/2021-2022-prj1/2021f_project1.pdf) προθεσμία μέχρι ~~21/11/2021~~
   * [Λύση](./assignments/2021-2022-prj1-sol/README.md)
 * [2η εργασία - ΛΑΒΥΡΙΝΘΟΣ (ξένα σύνολα, αναζήτηση κατά πλάτος)](./assignments/2021-2022-prj2/2021f_project2.pdf) προθεσμία μέχρι ~~23/12/2021~~
-* [3η εργασία - Longest Common Subsequence](./assignments/2021-2022-prj3/2021f_project3.pdf) προθεσμία μέχρι 23/1/2022
+* [3η εργασία - Longest Common Subsequence](./assignments/2021-2022-prj3/2021f_project3.pdf) προθεσμία μέχρι ~~23/1/2022~~ 30/1/2022
 
 ## 1. Ανάλυση αλγορίθμων
 
