@@ -110,6 +110,7 @@
 
 * [HashMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html)
 * [Hash tables in Java](https://www.andreinc.net/2021/11/08/a-tale-of-java-hash-tables)
+* [Hashmap in Java](https://www.scaler.com/topics/java/hashmap-in-java/)
 
 
 ### Συναρτήσεις κατακερματισμού
