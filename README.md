@@ -50,6 +50,9 @@
 * [Μια εύπεπτη εισαγωγή στην ανάλυση αλγορίθμων](https://discrete.gr/complexity/?el)
 * [reverse.py](./2023-2024/reverse.py)
 * [reverse.ipynb](./2023-2024/reverse.ipynb)
+* [gcd.py](./2023-2024/gcd.py)
+* [gcd.ipynb](./2023-2024/gcd.ipynb)
+* [biased_coin.ipynb](./2023-2024/biased_coin.py)
 
 ## 5. Ουρές προτεραιότητας και σωροί
 
