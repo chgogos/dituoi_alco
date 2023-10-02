@@ -48,6 +48,8 @@
 
 * [Khan's Academy - Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms#asymptotic-notation)
 * [Μια εύπεπτη εισαγωγή στην ανάλυση αλγορίθμων](https://discrete.gr/complexity/?el)
+* [reverse.py](./2023-2024/reverse.py)
+* [reverse.ipynb](./2023-2024/reverse.ipynb)
 
 ## 5. Ουρές προτεραιότητας και σωροί
 
