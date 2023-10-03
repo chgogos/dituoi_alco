@@ -6,7 +6,15 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 2/10/2023
+Τελευταία ενημέρωση: 3/10/2023
+
+
+<figure>
+    <img src="./assets/alco_cat.jpg" width="200"
+         alt="ALCΟ CAT">
+    <figcaption>Συμμετοχή στο πρώτο μάθημα του εξαμήνου!</figcaption>
+</figure>
+
 
 <!-- * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
 * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf) -->
