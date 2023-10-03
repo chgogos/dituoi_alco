@@ -8,13 +8,16 @@
 
 Τελευταία ενημέρωση: 3/10/2023
 
-
+---
+<center>
 <figure>
     <img src="./assets/alco_cat.jpg" width="200"
          alt="ALCΟ CAT">
     <figcaption>Συμμετοχή στο πρώτο μάθημα του εξαμήνου!</figcaption>
 </figure>
+</center>
 
+---
 
 <!-- * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
 * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf) -->
