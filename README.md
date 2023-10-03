@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 1/10/2023
+Τελευταία ενημέρωση: 2/10/2023
 
 <!-- * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
 * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf) -->
@@ -48,11 +48,14 @@
 
 * [Khan's Academy - Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms#asymptotic-notation)
 * [Μια εύπεπτη εισαγωγή στην ανάλυση αλγορίθμων](https://discrete.gr/complexity/?el)
-* [reverse.py](./2023-2024/reverse.py)
-* [reverse.ipynb](./2023-2024/reverse.ipynb)
-* [gcd.py](./2023-2024/gcd.py)
-* [gcd.ipynb](./2023-2024/gcd.ipynb)
-* [biased_coin.ipynb](./2023-2024/biased_coin.py)
+* Αντιστροφή λίστας
+  * [reverse.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/lecture1/reverse.ipynb) :notebook:
+  * [reverse.py](./2023-2024/reverse.py)
+* Μέγιστος κοινός διαιρέτης καιν ελάχιστο κοινό πολλαπλάσιο
+  * [gcd.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/lecture1/gcd.ipynb) :notebook:
+  * [gcd.py](./2023-2024/gcd.py)
+* Το πρόβλημα του "πειραγμένου" νομίσματος 
+  * [biased_coin.py](./2023-2024/biased_coin.py)
 
 ## 5. Ουρές προτεραιότητας και σωροί
 
