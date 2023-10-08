@@ -61,12 +61,12 @@
 * [Μια εύπεπτη εισαγωγή στην ανάλυση αλγορίθμων](https://discrete.gr/complexity/?el)
 * Αντιστροφή λίστας
   * [reverse.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/lecture1/reverse.ipynb)
-  * [reverse.py](./2023-2024/reverse.py)
+  * [reverse.py](./2023-2024/lecture1/reverse.py)
 * Μέγιστος κοινός διαιρέτης καιν ελάχιστο κοινό πολλαπλάσιο
   * [gcd.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/lecture1/gcd.ipynb)
-  * [gcd.py](./2023-2024/gcd.py)
+  * [gcd.py](./2023-2024/lecture1/gcd.py)
 * Το πρόβλημα του "πειραγμένου" νομίσματος 
-  * [biased_coin.py](./2023-2024/biased_coin.py)
+  * [biased_coin.py](./2023-2024/lecture1/biased_coin.py)
 
 ## 5. Ουρές προτεραιότητας και σωροί
 
