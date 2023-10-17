@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 3/10/2023
+Τελευταία ενημέρωση: 17/10/2023
 
 ---
 <center>
