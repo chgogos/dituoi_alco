@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 17/10/2023
+Τελευταία ενημέρωση: 27/10/2023
 
 ---
 <center>
@@ -51,8 +51,6 @@
 ## Εργασίες μαθήματος ακαδημαϊκού έτους 2023-2024
 * [1η εργασία](./assignments/2023-2024-prj1/2023f_alco_prj1.pdf) παράδοση μέχρι 30/11/2023
 
-
-
 <!-- ## Εργασίες μαθήματος ακαδημαϊκού έτους 2021-2022
 
 * [1η εργασία - MAXSUBARRAY](./assignments/2021-2022-prj1/2021f_project1.pdf) προθεσμία μέχρι ~~21/11/2021~~
@@ -72,6 +70,8 @@
   * [gcd.py](./2023-2024/lecture1/gcd.py)
 * Το πρόβλημα του "πειραγμένου" νομίσματος 
   * [biased_coin.py](./2023-2024/lecture1/biased_coin.py)
+* [Stackoverflow: Counting primitive operations on recursive functions](https://stackoverflow.com/questions/68061592/counting-primitive-operations-on-recursive-functions/77266704#77266704)  
+
 
 ## 5. Ουρές προτεραιότητας και σωροί
 
@@ -312,3 +312,10 @@
 <!-- 4. Γράψτε πρόγραμμα που να δέχεται μια λίστα τιμών και να επιστρέφει αν υπάρχει υποσύνολο των τιμών  της λίστας με άθροισμα μηδέν.
    
 5. Γράψτε ένα πρόγραμμα που να ανιχνεύει αν σε ένα κατευθυνόμενο γράφο υπάρχει κύκλος. -->
+
+---
+
+## Εργασίες παλαιότερων ετών
+* [1η εργασία - MAXSUBARRAY](./assignments/2021-2022-prj1/2021f_project1.pdf)
+  * [Λύση](./assignments/2021-2022-prj1-sol/README.md)
+
