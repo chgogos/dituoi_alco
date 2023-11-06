@@ -72,8 +72,8 @@
   * [biased_coin.py](./2023-2024/biased_coin.py)
 * [Εντοπισμός μέγιστης τιμής ακολουθίας](./2023-2024/max_array.py)
   * [Stackoverflow: Counting primitive operations on recursive functions](https://stackoverflow.com/questions/68061592/counting-primitive-operations-on-recursive-functions/77266704#77266704)
-* Το πρόβλημα της μέγιστης κοινής υποακολουθίας (maxsubarray) [max_subarray.ipynb](./2023-2024/max_subarray.ipynb)
-* Παραδείγματα με υπολογισμό πολυπλοκότητας σε κώδικα Python [time_complexity.ipynb](./2023-2024/time_complexity.ipynb)
+* Το πρόβλημα της μέγιστης κοινής υποακολουθίας (maxsubarray) [max_subarray.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/max_subarray.ipynb)
+* Παραδείγματα με υπολογισμό πολυπλοκότητας σε κώδικα Python [time_complexity.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/time_complexity.ipynb)
 
 
 
