@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 29/10/2023
+Τελευταία ενημέρωση: 6/11/2023
 
 ---
 <center>
@@ -64,7 +64,7 @@
 * [Μια εύπεπτη εισαγωγή στην ανάλυση αλγορίθμων](https://discrete.gr/complexity/?el)
 * Αντιστροφή λίστας
   * [reverse.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/reverse.ipynb)
-  * [reverse.py](./2023-2024/lecture1/reverse.py)
+  * [reverse.py](./2023-2024/reverse.py)
 * Μέγιστος κοινός διαιρέτης καιν ελάχιστο κοινό πολλαπλάσιο
   * [gcd.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/gcd.ipynb)
   * [gcd.py](./2023-2024/gcd.py)
