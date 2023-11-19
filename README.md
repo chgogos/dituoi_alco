@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 29/10/2023
+Τελευταία ενημέρωση: 6/11/2023
 
 ---
 <center>
@@ -64,7 +64,7 @@
 * [Μια εύπεπτη εισαγωγή στην ανάλυση αλγορίθμων](https://discrete.gr/complexity/?el)
 * Αντιστροφή λίστας
   * [reverse.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/reverse.ipynb)
-  * [reverse.py](./2023-2024/lecture1/reverse.py)
+  * [reverse.py](./2023-2024/reverse.py)
 * Μέγιστος κοινός διαιρέτης καιν ελάχιστο κοινό πολλαπλάσιο
   * [gcd.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/gcd.ipynb)
   * [gcd.py](./2023-2024/gcd.py)
@@ -72,8 +72,8 @@
   * [biased_coin.py](./2023-2024/biased_coin.py)
 * [Εντοπισμός μέγιστης τιμής ακολουθίας](./2023-2024/max_array.py)
   * [Stackoverflow: Counting primitive operations on recursive functions](https://stackoverflow.com/questions/68061592/counting-primitive-operations-on-recursive-functions/77266704#77266704)
-* Το πρόβλημα της μέγιστης κοινής υποακολουθίας (maxsubarray) [max_subarray.ipynb](./2023-2024/max_subarray.ipynb)
-* Παραδείγματα με υπολογισμό πολυπλοκότητας σε κώδικα Python [time_complexity.ipynb](./2023-2024/time_complexity.ipynb)
+* Το πρόβλημα της μέγιστης κοινής υποακολουθίας (maxsubarray) [max_subarray.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/max_subarray.ipynb)
+* Παραδείγματα με υπολογισμό πολυπλοκότητας σε κώδικα Python [time_complexity.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/time_complexity.ipynb)
 
 
 
