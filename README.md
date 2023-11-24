@@ -19,8 +19,8 @@
 
 ---
 
-<!-- * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
-* [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf) -->
+* [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
+<!-- * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf) -->
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
