@@ -227,10 +227,10 @@
 
 **Οπτικοποιήσεις Quick-Sort και άλλων αλγορίθμων ταξινόμησης**
 
-* https://opendsa-server.cs.vt.edu/embed/quicksortAV
-* https://www.sortvisualizer.com/
-* https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/
-* https://tobinatore.github.io/algovis/sorting.html
+* <https://opendsa-server.cs.vt.edu/embed/quicksortAV>
+* <https://www.sortvisualizer.com/>
+* <https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/>
+* <https://tobinatore.github.io/algovis/sorting.html>
 
 **Κάτω όριο για ταξινόμηση βασισμένη σε συγκρίσεις στοιχείων**
 
