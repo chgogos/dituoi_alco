@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 6/11/2023
+Τελευταία ενημέρωση: 24/11/2023
 
 ---
 <center>
@@ -224,6 +224,13 @@
 1. Δίνεται ένα σύνολο από σχέσεις φιλίας ανάμεσα σε άτομα (κάθε άτομο αναπαρίσταται από έναν αριθμό και η σχέση φιλίας με ένα ζεύγος αριθμών). Εντοπίστε τις ομάδες ατόμων που είναι συνδεδεμένες (π.χ. friends = [[ 1, 0 ], [ 2, 3 ], [ 1, 2 ], [ 4, 5 ]]). 
 
 ## 8. Αλγόριθμοι Merge-Sort και Quick-Sort
+
+**Οπτικοποιήσεις Quick-Sort και άλλων αλγορίθμων ταξινόμησης**
+
+* https://opendsa-server.cs.vt.edu/embed/quicksortAV
+* https://www.sortvisualizer.com/
+* https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/
+* https://tobinatore.github.io/algovis/sorting.html
 
 **Κάτω όριο για ταξινόμηση βασισμένη σε συγκρίσεις στοιχείων**
 
