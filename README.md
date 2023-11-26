@@ -244,6 +244,8 @@
 
 Παραδείγματα προβλημάτων που λύνονται βέλτιστα με την άπληστη μέθοδο: κλασματικό πρόβλημα σακιδίου (fractional knapsack), χρονοπρογραμματισμός εργασιών με καθορισμένες στιγμές έναρξης και τερματισμού σε πανομοιότυπες μηχανές, κωδικοποίηση Huffmann, αλγόριθμος του Dijkstra για την εύρεση ττων συντομότερων διαδρομών από μια κορυφή προς όλες τις άλλες κορυφές ενός γράφου χωρίς αρνητικά βάρη.
 
+* <https://ben-tanen.com/adaptive-huffman/>
+
 ## 11. Διαίρει και βασίλευε
 
 Διάφορα προβλήματα στα οποία εφαρμόζεται η τεχνική "διαίρει και βασίλευε": δυαδική αναζήτηση, Merge-Sort, Quick-Sort, [πολλαπλασιασμός ακεραίων Karatsuba](https://brilliant.org/wiki/karatsuba-algorithm/), [πολλαπλασιασμός πινάκων Strassen](https://www.interviewbit.com/blog/strassens-matrix-multiplication/), [σύνολο μεγίστων (maxima set)](https://en.wikipedia.org/wiki/Maxima_of_a_point_set).
