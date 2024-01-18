@@ -6,22 +6,33 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 10/12/2023
+Τελευταία ενημέρωση: 18/1/2024
 
 ---
 <center>
-<figure>
+
+<table border="1">
+    <tr>
+        <td><img src="./assets/alco_cat.jpg" alt="ALCΟ CAT BABY" width="200"><figcaption>Επισκέπτης στο πρώτο μάθημα του εξαμήνου!</figcaption></td>
+        <td><img src="./assets/alco_cat2.png" alt="ALCΟ CAT YOUNG" width="200"></td>
+    </tr>
+</table>
+
+</center> 
+
+<!-- <figure>
     <img src="./assets/alco_cat.jpg" width="200"
          alt="ALCΟ CAT">
     <figcaption>Επισκέπτης στο πρώτο μάθημα του εξαμήνου!</figcaption>
 </figure>
-</center>
+</center> -->
 
 ---
 
 * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
   * [ΛΥΣΕΙΣ](./resources/recitation-a-solutions.pdf)
 * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
+  * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf)
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -47,11 +58,23 @@
 * [Κεφάλαιο 14](./resources/ada_book/ch14_gr.pdf)
 * [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf)
 
-Κεφάλαια εντός ύλης: 1, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15
+**Κεφάλαια εντός ύλης:** 
+* Κεφάλαιο 1 
+* Κεφάλαιο 5 
+* Κεφάλαιο 6 
+* Κεφάλαιο 7 
+* Κεφάλαιο 8 
+* Κεφάλαιο 10 
+* Κεφάλαιο 11 
+* Κεφάλαιο 12 (όχι 12.3, 12.4) 
+* Κεφάλαιο 13 (όχι 13.4, 13.5)
+* Κεφάλαιο 14 (όχι 14.5.2) 
+* Κεφάλαιο 15 
+
 
 ## Εργασίες μαθήματος ακαδημαϊκού έτους 2023-2024
 * [1η εργασία](./assignments/2023-2024-prj1/2023f_alco_prj1.pdf) παράδοση μέχρι ~~30/11/2023~~
-* [2η εργασία](./assignments/2023-2024-prj2/2023f_alco_prj2.pdf) παράδοση μέχρι 17/1/2024
+* [2η εργασία](./assignments/2023-2024-prj2/2023f_alco_prj2.pdf) παράδοση μέχρι ~~17/1/2024~~
 
 <!-- ## Εργασίες μαθήματος ακαδημαϊκού έτους 2021-2022
 
