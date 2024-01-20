@@ -6,15 +6,15 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 18/1/2024
+Τελευταία ενημέρωση: 20/1/2024
 
 ---
 <center>
 
-<table border="1">
+<table>
     <tr>
-        <td><img src="./assets/alco_cat.jpg" alt="ALCΟ CAT BABY" width="200"><figcaption>Επισκέπτης στο πρώτο μάθημα του εξαμήνου!</figcaption></td>
-        <td><img src="./assets/alco_cat2.png" alt="ALCΟ CAT YOUNG" width="200"></td>
+        <td><img src="./assets/alco_cat.jpg" alt="ALCΟ CAT BABY" width="200"><figcaption>Επισκέπτης στο πρώτο μάθημα (2/10/2024) του εξαμήνου!</figcaption></td>
+        <td><img src="./assets/alco_cat2.png" alt="ALCΟ CAT YOUNG" width="200">Ιανούαριος 2024</td>
     </tr>
 </table>
 
