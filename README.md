@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 20/1/2024
+Τελευταία ενημέρωση: 21/1/2024
 
 ---
 <center>
@@ -30,9 +30,9 @@
 ---
 
 * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
-  * [ΛΥΣΕΙΣ](./resources/recitation-a-solutions.pdf)
+  * [ΛΥΣΕΙΣ](./resources/recitation-a-solutions.pdf) 📌
 * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
-  * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf)
+  * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf) 📌
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
