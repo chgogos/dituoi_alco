@@ -6,12 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 30/9/2024
-
-<!-- * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
-  * [ΛΥΣΕΙΣ](./resources/recitation-a-solutions.pdf) 📌
-* [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
-  * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf) 📌 -->
+Τελευταία ενημέρωση: 2/10/2024
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -52,6 +47,12 @@
 * Κεφάλαιο 16 
 * Κεφάλαιο 17  
 * Κεφάλαιο 18 -->
+
+## Θέματα προετοιμασίας
+* [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
+  * [ΛΥΣΕΙΣ](./resources/recitation-a-solutions.pdf) 📌
+<!-- * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
+  * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf) 📌 -->
 
 ## 1. Ανάλυση αλγορίθμων
 
