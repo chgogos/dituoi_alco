@@ -42,9 +42,9 @@ def bfs(s, e):
 
 def dfs(s, e):
     """Αναζήτηση κατά βάθος από το s στο  e"""
-    frontier = deque()  # μέτωπο αναζήτησης
-    frontier.append(s)
+    frontier = deque()  # μέτωπο αναζήτησης (στοίβα)
     visited = set()  # κορυφές που έχουν επισκεφτεί
+    frontier.append(s)
     visited.add(s)
     prev = {s: None}  # για κάθε κορυφή, η προηγούμενη κορυφή
     while frontier:  # όσο το μέτωπο αναζήτησης δεν είναι κενό
@@ -71,8 +71,8 @@ def dfs(s, e):
     return []
 
 
-path = bfs("A", "E")
-print("BFS: ", path)
+# path = bfs("A", "E")
+# print("BFS: ", path)
 
 path = dfs("A", "E")
 print("DFS:", path)
