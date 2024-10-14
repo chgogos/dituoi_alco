@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 2/10/2024
+Τελευταία ενημέρωση: 14/10/2024
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -31,6 +31,8 @@
 * [Κεφάλαιο 13Γ](./resources/ada_book/ch13/BFS_gr.pdf)
 * [Κεφάλαιο 14](./resources/ada_book/ch14_gr.pdf)
 * [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf)
+* [Κεφάλαιο 17Α](./resources/ada_book/ch17/NPComplete_gr.pdf)
+* [Κεφάλαιο 18](./resources/ada_book/ch18_gr.pdf)
 
 <!-- **Κεφάλαια εντός ύλης:** 
 * Κεφάλαιο 1 
@@ -127,7 +129,6 @@
 * [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 * [υλοποίηση των dictionaries στην Python](https://stackoverflow.com/questions/327311/how-are-pythons-built-in-dictionaries-implemented)
 * [The python corner - Python Hash Tables: Understanding dictionaries ](https://thepythoncorner.com/posts/2020-08-21-hash-tables-understanding-dictionaries/)
-
 
 **Μη διατεταγμένοι συσχετιστικοί πίνακες στην C++**
 
@@ -317,6 +318,15 @@
   * Αλγόριθμος του Kruskal (υλοποίηση με χρήση ξένων συνόλων)
   * Αλγόριθμος του Borůvka
 
+## 16. Ροή δικτύου και αντιστοίχιση
+
+
+## 17. NP-πληρότητα
+
+
+## 18. Προσεγγιστικοί αλγόριθμοι
+
+
 ---
 
 ## Aσκήσεις
@@ -339,6 +349,19 @@
    
 1. Γράψτε ένα πρόγραμμα που να ανιχνεύει αν σε ένα κατευθυνόμενο γράφο υπάρχει κύκλος. -->
 
+
+## Εκμάθηση Python
+
+* <https://pythoninstitute.org/>
+  * [Python Essentials 1](https://pythoninstitute.org/python-essentials-1)
+  * [Python Essentials 2](https://pythoninstitute.org/python-essentials-2)
+
+## Εξάσκηση σε διάφορα αλγοριθμικά προβλήματα
+
+* [Leetcode](https://leetcode.com/)
+* [Open Kattis](https://open.kattis.com/)
+* [Project Euler](https://projecteuler.net/)
+
 ---
 
 ## Εργασίες παλαιότερων ετών
@@ -348,4 +371,4 @@
 * [3η εργασία 2021-2022 - Δυναμικός προγραμματισμός, το πρόβλημα της μέγιστης κοινής υποακολουθίας](./assignments/2021-2022-prj3/2021f_project3.pdf)
 * [1η εργασία 2023-2024 - Γρήγορος υπολογισμός συγκεντρωτικών χρεώσεων πιστωτκών καρτών](./assignments/2023-2024-prj1/2023f_alco_prj1.pdf)
 * [2η εργασία 2023-2024 - Χρινοπρογραμματισμός εργασιών σε βιομηχανικό περιβάλλον](./assignments/2023-2024-prj2/2023f_alco_prj2.pdf)
-
+* 
