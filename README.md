@@ -6,17 +6,17 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 14/10/2024
+Τελευταία ενημέρωση: 20/10/2024
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
-* [Κεφάλαιο 1](./resources/ada_book/ch01_gr.pdf)
-* [Κεφάλαιο 5Α](./resources/ada_book/ch05/PriorityQueues_gr.pdf)
-* [Κεφάλαιο 5Β](./resources/ada_book/ch05/Heap_gr.pdf)
-* [Κεφάλαιο 6Α](./resources/ada_book/ch06/Maps_gr.pdf)
-* [Κεφάλαιο 6Β](./resources/ada_book/ch06/HashTables_gr.pdf)
-* [Κεφάλαιο 6Γ](./resources/ada_book/ch06/CuckooHashing_gr.pdf)
-* [Κεφάλαιο 7](./resources/ada_book/ch07_gr.pdf)
+* [<mark>Κεφάλαιο 1</mark>](./resources/ada_book/ch01_gr.pdf) -  Ανάλυση αλγορίθμων
+* [<mark>Κεφάλαιο 5Α</mark>](./resources/ada_book/ch05/PriorityQueues_gr.pdf) - Ουρές προτεραιότητας
+* [<mark>Κεφάλαιο 5Β</mark>](./resources/ada_book/ch05/Heap_gr.pdf) - Σωροί
+* [Κεφάλαιο 6Α](./resources/ada_book/ch06/Maps_gr.pdf) - Συσχετιστικοί πίνακες
+* [Κεφάλαιο 6Β](./resources/ada_book/ch06/HashTables_gr.pdf) - Πίνακες κατακερματισμού
+* [Κεφάλαιο 6Γ](./resources/ada_book/ch06/CuckooHashing_gr.pdf) - Κατερματισμός κούκου
+* [Κεφάλαιο 7](./resources/ada_book/ch07_gr.pdf) - Δομή ένωσης/εύρεσης
 * [Κεφάλαιο 8Α](./resources/ada_book/ch08/MergeSort_gr.pdf)
 * [Κεφάλαιο 8Β](./resources/ada_book/ch08/QuickSort_gr.pdf)
 * [Κεφάλαιο 8Γ](./resources/ada_book/ch08/SortingLowerBound_gr.pdf)
@@ -31,6 +31,7 @@
 * [Κεφάλαιο 13Γ](./resources/ada_book/ch13/BFS_gr.pdf)
 * [Κεφάλαιο 14](./resources/ada_book/ch14_gr.pdf)
 * [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf)
+* [Κεφάλαιο 16](./resources/ada_book/ch16.pdf)
 * [Κεφάλαιο 17Α](./resources/ada_book/ch17/NPComplete_gr.pdf)
 * [Κεφάλαιο 18](./resources/ada_book/ch18_gr.pdf)
 
@@ -75,18 +76,17 @@
 * Παραδείγματα με υπολογισμό πολυπλοκότητας σε κώδικα Python [time_complexity.ipynb](https://nbviewer.org/github/chgogos/dituoi_alco/blob/main/2023-2024/time_complexity.ipynb)
 
 
-
 ## 5. Ουρές προτεραιότητας και σωροί
 
-* [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/Heap.html) δημιουργίας σωρού ελαχίστων (MINHEAP) με διαδοχικές εισαγωγές τιμών: π.χ. χρησιμοποιήστε το πλήκτρο **Insert** για τη διαδοχική εισαγωγή των τιμών 21,5,17,12,3,9,16 σε έναν σωρό ελαχίστων
-* [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/Heap.html) δημιουργίας σωρού ελαχίστων (MINHEAP) με τη διαδικασία heapify: χρησιμοποιήστε το πλήκτρο **BuildHeap** για τη δημιουργία ενός σωρού ελαχίστων από έναν πίνακα 31 τιμών με τους ακέραιους από 1 μέχρι και 31
-* [Οπτικοποίηση](http://btv.melezinek.cz/binary-heap.html) λειτουργιών insert, delete, heapsort, buildheap σε σωρό μεγίστων (MAXHEAP) 
+* [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/Heap.html) δημιουργίας σωρού ελαχίστων (MINHEAP) με διαδοχικές εισαγωγές τιμών: π.χ. χρησιμοποιήστε το πλήκτρο **Insert** για τη διαδοχική εισαγωγή των τιμών 21,5,17,12,3,9,16 σε έναν σωρό ελαχίστων (David Galles Computer Science University of San Francisco).
+* [Οπτικοποίηση](https://www.cs.usfca.edu/~galles/visualization/Heap.html) δημιουργίας σωρού ελαχίστων (MINHEAP) με τη διαδικασία heapify: χρησιμοποιήστε το πλήκτρο **BuildHeap** για τη δημιουργία ενός σωρού ελαχίστων από έναν πίνακα 31 τιμών με τους ακέραιους από 1 μέχρι και 31 (David Galles Computer Science University of San Francisco).
+* [Οπτικοποίηση](https://visualgo.net/en/heap) διαφόρων λειτουργιών σε σωρό μεγίστων (MAXHEAP) από το [visualgo.net](https://visualgo.net/en).
 
 **Ουρές προτεραιότητας στην Python**
 
-[heapq](https://docs.python.org/3/library/heapq.html)
-
-Παράδειγμα: [heapq_example.py](./heapq_example.py)
+* Απλή υλοποίηση σωρού [heap_impl.py](./heap_impl.py)
+* Υλοποίηση σωρού της standard βιβλιοθήκης της Python στο module [heapq](https://docs.python.org/3/library/heapq.html)
+  * Παράδειγμα: [heapq_example.py](./heapq_example.py)
 
 **Ουρές προτεραιότητας στην C++**
 
