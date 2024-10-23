@@ -121,30 +121,36 @@
 
     * Λύση: [heap_exercise2.py](./heap_exercise2.py)
 
-## 6. Συσχετιστικοί πίνακες    
+## 6. Πίνακες αντιστοίχισης     
 
-Οι συσχετιστικοί πίνακες (associative arrays) ή συσχετιστικές μνήμες (associative memories), ή χάρτες (maps), ή χάρτες κατακερματισμού (hashmaps) ή λεξικά (dictionaries) είναι σύνολα ζευγών κλειδί/τιμή. Υποστηρίζουν τις λειτουργίες εντοπισμού (με δεδομένο το κλειδί), εισαγωγής του ζεύγους κλειδί/τιμή΄και διαγραφής (με δεδομένο το κλειδί) με υψηλή ταχύτητα, Ο(1) υπό προϋποθέσεις.
+Οι πίνακες αντιστοίχισης ή συσχετιστικοί πίνακες (associative arrays) ή συσχετιστικές μνήμες (associative memories), ή χάρτες (maps), ή χάρτες κατακερματισμού (hashmaps) ή λεξικά (dictionaries) είναι σύνολα ζευγών κλειδί/τιμή. Υποστηρίζουν τις λειτουργίες εντοπισμού (με δεδομένο το κλειδί), εισαγωγής του ζεύγους κλειδί/τιμή΄και διαγραφής (με δεδομένο το κλειδί) με υψηλή ταχύτητα, Ο(1) υπό προϋποθέσεις. Μπορούμε να θεωρούμε ότι οι πίνακες αντιστοίχισης αναφέρονται στον Αφηρημένο Τύπο Δεδομένων (ΑΤΔ), ενώ όταν υπάρχει στο όνομα η λέξη κατακερματισμός ότι μιλάμε για υλοποίηση του ΑΤΔ με κάποια υλοποίηση πίνακα κατακερματισμού. 
 
 **Λεξικά στην Python**
 
-* [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
-* [υλοποίηση των dictionaries στην Python](https://stackoverflow.com/questions/327311/how-are-pythons-built-in-dictionaries-implemented)
+* [Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+* [Υλοποίηση των dictionaries στην Python](https://stackoverflow.com/questions/327311/how-are-pythons-built-in-dictionaries-implemented)
 * [The python corner - Python Hash Tables: Understanding dictionaries ](https://thepythoncorner.com/posts/2020-08-21-hash-tables-understanding-dictionaries/)
 
-**Μη διατεταγμένοι συσχετιστικοί πίνακες στην C++**
+**Πίνακες αντιστοίχισης στη C++**
 
-* [unordered_map](https://en.cppreference.com/w/cpp/container/unordered_map)
+* [unordered_map](https://en.cppreference.com/w/cpp/container/unordered_map) - υλοποίηση με πίνακα κατακερματισμού
+  * Παράδειγμα: [unordered_map_example.cpp](./unordered_map_example.cpp)
+* [map](https://en.cppreference.com/w/cpp/container/map) - υλοποίηση πίνακα αντιστοίχισης (με Red-Black δένδρα) με ταξινομημένα κλειδιά 
 
-Παράδειγμα: [unordered_map_example.cpp](./unordered_map_example.cpp)
-
-**Συσχετιστικοί πίνακες στην Java**
+**Πίνακες αντιστοίχισης στη Java**
 
 * [HashMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html)
 * [Hash tables in Java](https://www.andreinc.net/2021/11/08/a-tale-of-java-hash-tables)
 * [Hashmap in Java](https://www.scaler.com/topics/java/hashmap-in-java/)
 
-
 ### Συναρτήσεις κατακερματισμού
+
+**Μη κρυπτογραφικές συναρτήσεις κατακερματισμού (χρήση σε δομές δεδομένων)**
+
+* [General Purpose Hash Function Algorithms](http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFunctions)
+* [djb2, sdbm](http://www.cse.yorku.ca/~oz/hash.html)
+* [FNV](http://www.isthe.com/chongo/tech/comp/fnv/)
+* [murmur](https://www.sderosiaux.com/articles/2017/08/26/the-murmur3-hash-function--hashtables-bloom-filters-hyperloglog/)
 
 **Κρυπτογραφικές συναρτήσεις κατακερματισμού**
 
@@ -156,20 +162,13 @@
 * [interactive_py_hash.py](./interactive_py_hash.py)
 * [interactive_py_hash2.py](./interactive_py_hash2.py) κρυπτογραφικες συναρτήσεις κατακερματισμού με το module hashlib
 
-**Μη κρυπτογραφικές συναρτήσεις κατακερματισμού (χρήση σε δομές δεδομένων)**
-
-* [General Purpose Hash Function Algorithms](http://www.partow.net/programming/hashfunctions/index.html#AvailableHashFunctions)
-* [djb2, sdbm](http://www.cse.yorku.ca/~oz/hash.html)
-* [FNV](http://www.isthe.com/chongo/tech/comp/fnv/)
-* [murmur](https://www.sderosiaux.com/articles/2017/08/26/the-murmur3-hash-function--hashtables-bloom-filters-hyperloglog/)
-
 **Ελάχιστη τέλεια συνάρτηση κατακερματισμού (minimal perfect hash function)**
 
 Τέλεια συνάρτηση κατακερματισμού είναι μια συνάρτηση κατακερματισμού η οποία αντιστοιχίζει τα στοιχεία ενός συνόλου σε ένα σύνολο ακεραίων χωρίς συγκρούσεις. Ελάχιστη τέλεια συνάρτηση κατακερματισμού είναι μια τέλεια συνάρτηση κατακερματισμού που αντιστοιχίζει χωρίς συγκρούσεις $n$ κλειδιά σε $n$ διαδοχικούς ακεραίους από το $0$ έως το $n-1$.
 
 Δείτε και το [http://cmph.sourceforge.net/concepts.html](http://cmph.sourceforge.net/concepts.html)
 
-### Ανοικτή διευθυνσιοδότηση (open addressing) 
+### Ανοικτή διευθυνσιοδότηση (open addressing ή closed hashing) 
 
 Η ανοικτή διευνσιοδότηση λαμβάνει το όνομά της από την ιδιότητα που έχει να επιτρέπει στα κλειδιά να μετακινηθούν και σε άλλες θέσεις, διαφορετικές από τη θέση στην οποία γίνονται αρχικά hash. 
 
@@ -184,7 +183,7 @@
 * Διπλός κατακερματισμός (double hashing)
 * Τυχαίος κατακερματισμός (random hashing)
 
-### Κλειστή διευθυνσιοδότηση (closed addressing)
+### Κλειστή διευθυνσιοδότηση (closed addressing ή open hashing ή separate chaining)
 
 Η κλειστή διευθυνσιοδότηση λαμβάνει το όνομά της από την ιδιότητα που έχει να τοποθετεί τα κλειδιά στη θέση στην οποία γίνονται hash, χρησιμοποιώντας μια βοηθητική δομή (π.χ. συνδεδεμένη λίστα) για να αποθηκεύσει στην ίδια θέση πιθανώς περισσότερα από ένα στοιχεία τα οποία γίνονται hash στην ίδια θέση. 
 
@@ -356,6 +355,7 @@
 * <https://pythoninstitute.org/>
   * [Python Essentials 1](https://pythoninstitute.org/python-essentials-1)
   * [Python Essentials 2](https://pythoninstitute.org/python-essentials-2)
+* [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/index.html)
 
 ## Εξάσκηση σε διάφορα αλγοριθμικά προβλήματα
 
