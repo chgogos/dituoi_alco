@@ -6,34 +6,34 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
 
-Τελευταία ενημέρωση: 20/10/2024
+Τελευταία ενημέρωση: 3/11/2024
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
 * [<mark>Κεφάλαιο 1</mark>](./resources/ada_book/ch01_gr.pdf) -  Ανάλυση αλγορίθμων
 * [<mark>Κεφάλαιο 5Α</mark>](./resources/ada_book/ch05/PriorityQueues_gr.pdf) - Ουρές προτεραιότητας
 * [<mark>Κεφάλαιο 5Β</mark>](./resources/ada_book/ch05/Heap_gr.pdf) - Σωροί
-* [Κεφάλαιο 6Α](./resources/ada_book/ch06/Maps_gr.pdf) - Συσχετιστικοί πίνακες
-* [Κεφάλαιο 6Β](./resources/ada_book/ch06/HashTables_gr.pdf) - Πίνακες κατακερματισμού
+* [<mark>Κεφάλαιο 6Α</mark>](./resources/ada_book/ch06/Maps_gr.pdf) - Συσχετιστικοί πίνακες
+* [<mark>Κεφάλαιο 6Β</mark>](./resources/ada_book/ch06/HashTables_gr.pdf) - Πίνακες κατακερματισμού
 * [Κεφάλαιο 6Γ](./resources/ada_book/ch06/CuckooHashing_gr.pdf) - Κατερματισμός κούκου
 * [Κεφάλαιο 7](./resources/ada_book/ch07_gr.pdf) - Δομή ένωσης/εύρεσης
-* [Κεφάλαιο 8Α](./resources/ada_book/ch08/MergeSort_gr.pdf)
-* [Κεφάλαιο 8Β](./resources/ada_book/ch08/QuickSort_gr.pdf)
-* [Κεφάλαιο 8Γ](./resources/ada_book/ch08/SortingLowerBound_gr.pdf)
-* [Κεφάλαιο 10](./resources/ada_book/ch10_gr.pdf)
-* [Κεφάλαιο 11](./resources/ada_book/ch11_gr.pdf)
-* [Κεφάλαιο 12Α](./resources/ada_book/ch12/DynamicProgramming_gr.pdf)
-* [Κεφάλαιο 12Β](./resources/ada_book/ch12/TelescopeSchedule_gr.pdf)
-* [Κεφάλαιο 12Γ](./resources/ada_book/ch12/LCS_gr.pdf)
-* [Κεφάλαιο 12Δ](./resources/ada_book/ch12/Knapsack_gr.pdf)
-* [Κεφάλαιο 13Α](./resources/ada_book/ch13/Graph_gr.pdf)
-* [Κεφάλαιο 13Β](./resources/ada_book/ch13/DFS_gr.pdf)
-* [Κεφάλαιο 13Γ](./resources/ada_book/ch13/BFS_gr.pdf)
-* [Κεφάλαιο 14](./resources/ada_book/ch14_gr.pdf)
-* [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf)
-* [Κεφάλαιο 16](./resources/ada_book/ch16.pdf)
-* [Κεφάλαιο 17Α](./resources/ada_book/ch17/NPComplete_gr.pdf)
-* [Κεφάλαιο 18](./resources/ada_book/ch18_gr.pdf)
+* [Κεφάλαιο 8Α](./resources/ada_book/ch08/MergeSort_gr.pdf) - Ταξινόμηση με συγχώνευση
+* [Κεφάλαιο 8Β](./resources/ada_book/ch08/QuickSort_gr.pdf) - Γρήγορη ταξινόμηση
+* [Κεφάλαιο 8Γ](./resources/ada_book/ch08/SortingLowerBound_gr.pdf) - Κάτω όριο ταξινόμησης (με συγκρίσεις)
+* [Κεφάλαιο 10](./resources/ada_book/ch10_gr.pdf) - Η άπληστη μέθοδος
+* [Κεφάλαιο 11](./resources/ada_book/ch11_gr.pdf) - Διαίρει και βασίλευε
+* [Κεφάλαιο 12Α](./resources/ada_book/ch12/DynamicProgramming_gr.pdf) - Δυναμικός Προγραμματισμός
+* [Κεφάλαιο 12Β](./resources/ada_book/ch12/TelescopeSchedule_gr.pdf) - Δυναμικός Προγραμματισμός: Προγραμματισμός τηλεσκοπίων
+* [Κεφάλαιο 12Γ](./resources/ada_book/ch12/LCS_gr.pdf) - Δυναμικός Προγραμματισμός: Μέγιστη κοινή υποακολουθία
+* [Κεφάλαιο 12Δ](./resources/ada_book/ch12/Knapsack_gr.pdf) - Δυναμικός Προγραμματισμός: Πρόβλημα σακιδίου 0-1
+* [Κεφάλαιο 13Α](./resources/ada_book/ch13/Graph_gr.pdf) - Ορολογία και αναπαραστάσεις γράφων
+* [Κεφάλαιο 13Β](./resources/ada_book/ch13/DFS_gr.pdf) - Αναζήτηση πρώτα σε βάθος
+* [Κεφάλαιο 13Γ](./resources/ada_book/ch13/BFS_gr.pdf) - Αναζήτηση πρώτα σε πλάτος
+* [Κεφάλαιο 14](./resources/ada_book/ch14_gr.pdf) - Συντομότερες διαδρομές
+* [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf) - Δέντρα επικάλυψης ελαχίστου κόστους
+* [Κεφάλαιο 16](./resources/ada_book/ch16.pdf) - Μέγιστες ροές
+* [Κεφάλαιο 17Α](./resources/ada_book/ch17/NPComplete_gr.pdf) - NP πληρότητα
+* [Κεφάλαιο 18](./resources/ada_book/ch18_gr.pdf) - Προσεγγιστικοί αλγόριθμοι
 
 <!-- **Κεφάλαια εντός ύλης:** 
 * Κεφάλαιο 1 
@@ -164,7 +164,7 @@
 
 **Ελάχιστη τέλεια συνάρτηση κατακερματισμού (minimal perfect hash function)**
 
-Τέλεια συνάρτηση κατακερματισμού είναι μια συνάρτηση κατακερματισμού η οποία αντιστοιχίζει τα στοιχεία ενός συνόλου σε ένα σύνολο ακεραίων χωρίς συγκρούσεις. Ελάχιστη τέλεια συνάρτηση κατακερματισμού είναι μια τέλεια συνάρτηση κατακερματισμού που αντιστοιχίζει χωρίς συγκρούσεις $n$ κλειδιά σε $n$ διαδοχικούς ακεραίους από το $0$ έως το $n-1$.
+Τέλεια συνάρτηση κατακερματισμού είναι μια συνάρτηση κατακερματισμού η οποία αντιστοιχίζει τα στοιχεία ενός συνόλου σε ένα σύνολο ακεραίων χωρίς συγκρούσεις. Ελάχιστη τέλεια συνάρτηση κατακερματισμού είναι μια τέλεια συνάρτηση κατακερματισμού που αντιστοιχίζει χωρίς συγκρούσεις n κλειδιά σε n διαδοχικούς ακεραίους από το 0 έως το n-1.
 
 Δείτε και το [http://cmph.sourceforge.net/concepts.html](http://cmph.sourceforge.net/concepts.html)
 
@@ -193,7 +193,7 @@
 
 ### Κατακερματισμός κούκου
 
-Ο κατακερματισμός κούκου πετυχαίνει Ο(1) χρόνο χειρότερης περίπτωσης για αναζήτηση και διαγραφή και Ο(1) αναμενόμενο χρόνο για εισαγωγή.
+Ο κατακερματισμός κούκου πετυχαίνει Ο(1) χρόνο χειρότερης περίπτωσης για αναζήτηση και διαγραφή και Ο(1) χρόνο μέσης περίπτωσγης για εισαγωγή.
 
 * [Οπτικοποίηση](https://www.lkozma.net/cuckoo_hashing_visualization/) κατακερματισμού κούκου.
 
