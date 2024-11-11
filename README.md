@@ -4,9 +4,9 @@
 
 Γκόγκος Χρήστος, Τμήμα Πληροφορικής και Τηλεπικοινωνιών, Άρτα, Πανεπιστήμιο Ιωαννίνων
 
-Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946)
+Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946).
 
-Τελευταία ενημέρωση: 3/11/2024
+Τελευταία ενημέρωση: 11/11/2024
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -15,8 +15,8 @@
 * [<mark>Κεφάλαιο 5Β</mark>](./resources/ada_book/ch05/Heap_gr.pdf) - Σωροί
 * [<mark>Κεφάλαιο 6Α</mark>](./resources/ada_book/ch06/Maps_gr.pdf) - Συσχετιστικοί πίνακες
 * [<mark>Κεφάλαιο 6Β</mark>](./resources/ada_book/ch06/HashTables_gr.pdf) - Πίνακες κατακερματισμού
-* [Κεφάλαιο 6Γ](./resources/ada_book/ch06/CuckooHashing_gr.pdf) - Κατερματισμός κούκου
-* [Κεφάλαιο 7](./resources/ada_book/ch07_gr.pdf) - Δομή ένωσης/εύρεσης
+* [<mark>Κεφάλαιο 6Γ</mark>](./resources/ada_book/ch06/CuckooHashing_gr.pdf) - Κατερματισμός κούκου
+* [<mark>Κεφάλαιο 7</mark>](./resources/ada_book/ch07_gr.pdf) - Δομή ένωσης/εύρεσης
 * [Κεφάλαιο 8Α](./resources/ada_book/ch08/MergeSort_gr.pdf) - Ταξινόμηση με συγχώνευση
 * [Κεφάλαιο 8Β](./resources/ada_book/ch08/QuickSort_gr.pdf) - Γρήγορη ταξινόμηση
 * [Κεφάλαιο 8Γ](./resources/ada_book/ch08/SortingLowerBound_gr.pdf) - Κάτω όριο ταξινόμησης (με συγκρίσεις)
@@ -26,9 +26,9 @@
 * [Κεφάλαιο 12Β](./resources/ada_book/ch12/TelescopeSchedule_gr.pdf) - Δυναμικός Προγραμματισμός: Προγραμματισμός τηλεσκοπίων
 * [Κεφάλαιο 12Γ](./resources/ada_book/ch12/LCS_gr.pdf) - Δυναμικός Προγραμματισμός: Μέγιστη κοινή υποακολουθία
 * [Κεφάλαιο 12Δ](./resources/ada_book/ch12/Knapsack_gr.pdf) - Δυναμικός Προγραμματισμός: Πρόβλημα σακιδίου 0-1
-* [Κεφάλαιο 13Α](./resources/ada_book/ch13/Graph_gr.pdf) - Ορολογία και αναπαραστάσεις γράφων
-* [Κεφάλαιο 13Β](./resources/ada_book/ch13/DFS_gr.pdf) - Αναζήτηση πρώτα σε βάθος
-* [Κεφάλαιο 13Γ](./resources/ada_book/ch13/BFS_gr.pdf) - Αναζήτηση πρώτα σε πλάτος
+* [<mark>Κεφάλαιο 13Α</mark>](./resources/ada_book/ch13/Graph_gr.pdf) - Ορολογία και αναπαραστάσεις γράφων
+* [<mark>Κεφάλαιο 13Β</mark>](./resources/ada_book/ch13/DFS_gr.pdf) - Αναζήτηση πρώτα σε βάθος
+* [<mark>Κεφάλαιο 13Γ</mark>](./resources/ada_book/ch13/BFS_gr.pdf) - Αναζήτηση πρώτα σε πλάτος
 * [Κεφάλαιο 14](./resources/ada_book/ch14_gr.pdf) - Συντομότερες διαδρομές
 * [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf) - Δέντρα επικάλυψης ελαχίστου κόστους
 * [Κεφάλαιο 16](./resources/ada_book/ch16.pdf) - Μέγιστες ροές
@@ -54,12 +54,10 @@
 ## Θέματα προετοιμασίας
 * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
   * [ΛΥΣΕΙΣ](./resources/recitation-a-solutions.pdf) 📌
-  
-<!-- * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
-  * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf) 📌 -->
+* [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
+  * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf) 📌
 
 ## 1. Ανάλυση αλγορίθμων
-
 * [Khan's Academy - Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms#asymptotic-notation)
 * [Μια εύπεπτη εισαγωγή στην ανάλυση αλγορίθμων](https://discrete.gr/complexity/?el)
 * Αντιστροφή λίστας
@@ -370,6 +368,5 @@
   <!-- * [Λύση](./assignments/2021-2022-prj1-sol/README.md) -->
 * [2η εργασία 2021-2022 - Λαβύρινθος με ξένα σύνολα](./assignments/2021-2022-prj2/2021f_project2.pdf)
 * [3η εργασία 2021-2022 - Δυναμικός προγραμματισμός, το πρόβλημα της μέγιστης κοινής υποακολουθίας](./assignments/2021-2022-prj3/2021f_project3.pdf)
-* [1η εργασία 2023-2024 - Γρήγορος υπολογισμός συγκεντρωτικών χρεώσεων πιστωτκών καρτών](./assignments/2023-2024-prj1/2023f_alco_prj1.pdf)
-* [2η εργασία 2023-2024 - Χρινοπρογραμματισμός εργασιών σε βιομηχανικό περιβάλλον](./assignments/2023-2024-prj2/2023f_alco_prj2.pdf)
-* 
+* [1η εργασία 2023-2024 - Γρήγορος υπολογισμός συγκεντρωτικών χρεώσεων πιστωτικών καρτών](./assignments/2023-2024-prj1/2023f_alco_prj1.pdf)
+* [2η εργασία 2023-2024 - Χρονοπρογραμματισμός εργασιών σε βιομηχανικό περιβάλλον](./assignments/2023-2024-prj2/2023f_alco_prj2.pdf)
