@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946).
 
-Τελευταία ενημέρωση: 11/11/2024
+Τελευταία ενημέρωση: 17/11/2024
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -29,7 +29,7 @@
 * [<mark>Κεφάλαιο 13Α</mark>](./resources/ada_book/ch13/Graph_gr.pdf) - Ορολογία και αναπαραστάσεις γράφων
 * [<mark>Κεφάλαιο 13Β</mark>](./resources/ada_book/ch13/DFS_gr.pdf) - Αναζήτηση πρώτα σε βάθος
 * [<mark>Κεφάλαιο 13Γ</mark>](./resources/ada_book/ch13/BFS_gr.pdf) - Αναζήτηση πρώτα σε πλάτος
-* [Κεφάλαιο 14](./resources/ada_book/ch14_gr.pdf) - Συντομότερες διαδρομές
+* [<mark>Κεφάλαιο 14</mark>](./resources/ada_book/ch14_gr.pdf) - Συντομότερες διαδρομές
 * [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf) - Δέντρα επικάλυψης ελαχίστου κόστους
 * [Κεφάλαιο 16](./resources/ada_book/ch16.pdf) - Μέγιστες ροές
 * [Κεφάλαιο 17Α](./resources/ada_book/ch17/NPComplete_gr.pdf) - NP πληρότητα
@@ -46,7 +46,7 @@
 * Κεφάλαιο 12 (όχι 12.3, 12.4) 
 * Κεφάλαιο 13 (όχι 13.4, 13.5)
 * Κεφάλαιο 14 (όχι 14.5.2) 
-* Κεφάλαιο 15 
+* Κεφάλαιο 15       
 * Κεφάλαιο 16 
 * Κεφάλαιο 17  
 * Κεφάλαιο 18 -->
@@ -297,7 +297,8 @@
 
 * Τοπολογική ταξινόμηση: τοποθέτηση των κορυφών του DAG σε τέτοια σειρά έτσι ώστε αν υπάρχει ακμή από την κορυφή u στην κορυφή v η κορυφή u να προηγείται στη σειρά της κορυφής v
   * Αλγόριθμος του Kahn
-  * DFS
+    * [topological_sort.py](./topological_sort.py)
+  <!-- * DFS -->
 
 **Λαβύρινθοι**
 
@@ -306,11 +307,16 @@
 
 ## 14. Συντομότερα μονοπάτια
 
-  * Αλγόριθμοι single source shortest paths
-    * Αλγόριθμος του Dijkstra
+  * Αλγόριθμοι single source shortest paths (sssp)
+    * Αλγόριθμος του Dijkstra (άπληστη μέθοδος)
+      * [sssp_dijkstra.py](./sssp_dijkstra.py)
     * Αλγόριθμος των Bellman-Ford (Δυναμικός Προγραμματισμός)
-    * Αλγόριθμος εύρεσης συντομότερων μονοπατιών σε DAGs 
-  * Αλγόριθμος all pairs shortest paths των Floyd-Warshall (Δυναμικός Προγραμματισμός)
+      * [sssp_bellman_ford.py](./sssp_bellman_ford.py)
+    * Αλγόριθμος εύρεσης συντομότερων μονοπατιών σε DAGs
+      * [sssp_dag.py](./sssp_dag.py)
+  * Αλγόριθμοι all pairs shortest paths (apsp)
+    * Αλγόριθμος των Floyd-Warshall (Δυναμικός Προγραμματισμός) 
+      * [apsp_floyd_warshall.py](./apsp_floyd_warshall.py)
 
 ## 15. Ελάχιστα συνεκτικά δέντρα
 
