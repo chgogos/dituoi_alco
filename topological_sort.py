@@ -34,6 +34,24 @@ def topological_sort_kahns(graph):
     return result
 
 
+def topological_sort_dfs(graph):
+    explored = defaultdict(bool)
+    order = []
+    for v in graph:
+        explored[v] = False
+    for v in graph:
+        if not explored[v]:
+            dfs(graph, v, explored, order)
+    return order[::-1]
+
+def dfs(graph, u, explored, order):
+    explored[u]= True
+    for v in graph[u]:
+        if not explored[v]:
+            dfs(graph, v, explored, order)
+    order.append(u)
+
+
 if __name__ == "__main__":
     graph = defaultdict(
         list,
@@ -41,9 +59,11 @@ if __name__ == "__main__":
             "a": ["b", "c", "f"],
             "b": ["c", "d", "e"],
             "c": ["d"],
+            "d": [],
             "e": ["d"],
             "f": ["b", "e"],
         },
     )
 
-    print("Τοπολογική ταξινόμηση:", topological_sort_kahns(graph))
+    # print("Τοπολογική ταξινόμηση:", topological_sort_kahns(graph))
+    print("Τοπολογική ταξινόμηση:", topological_sort_dfs(graph))
