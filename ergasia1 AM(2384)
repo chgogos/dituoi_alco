@@ -1,0 +1,110 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define CREDIT_CARD_SIZE 20
+#define HASH_TABLE_SIZE 101
+
+// Συνάρτηση κατακερματισμού
+unsigned int hash_function(char *key, unsigned int size) {
+    unsigned long hash = 5381;
+    int c;
+    while ((c = *key++) != 0)
+        hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
+    return hash % size;
+}
+// Δομή για την υλοποίηση του πίνακα κατακερματισμού
+typedef struct {
+    char *key;
+    double value;
+} HashTableEntry;
+typedef struct {
+    unsigned int size;
+    HashTableEntry *table;
+} HashTable;
+// Συνάρτηση εισαγωγής στον πίνακα κατακερματισμού
+void insert(HashTable *hash_table, char *key, double value) {
+    unsigned int index = hash_function(key, hash_table->size);
+    while (hash_table->table[index].key != NULL) {
+        index = (index + 1) % hash_table->size;
+    }
+    hash_table->table[index].key = strdup(key);
+    hash_table->table[index].value = value;
+}
+// Κύριο πρόγραμμα
+int main() {
+    // Αρχικοποίηση του seed
+    srand(1250/2384); //Εδώ προσθέτω τον αριθμό μυτρώου μου (ΑΜ)
+    //Ερώτημα 1
+    // Δημιουργώ 20.000 τυχαίουσ αριθμούς πιστωτικών καρτών
+    char **credit_cards = (char **)malloc(CREDIT_CARD_SIZE * sizeof(char *));
+    for (int i = 0; i < CREDIT_CARD_SIZE; i++) {
+        credit_cards[i] = (char *)malloc(20);
+        sprintf(credit_cards[i], "%04d-%04d-%04d-%04d", rand() % 9000 + 1000, rand() % 9000 + 1000, rand() % 9000 + 1000, rand() % 9000 + 1000);
+    }
+    // Δημιουργία 1.000.000 επαναλήψεων για τις χρεώσεις
+    double *charges = (double *)malloc(1000000 * sizeof(double));
+    for (int i = 0; i < 1000000; i++) {
+        char *credit_card = credit_cards[rand() % CREDIT_CARD_SIZE];
+        double amount = ((double)rand() / RAND_MAX) * (1000 - 10) + 10;  // Επιλέγω τυχαίο ποσό (με 2 δεκαδικά ψηφία)
+        charges[i] = amount;
+    }
+    // Ερώτημα 2
+    clock_t start_time = clock();
+
+    HashTable total_amounts;
+    total_amounts.size = CREDIT_CARD_SIZE;
+    total_amounts.table = (HashTableEntry *)malloc(CREDIT_CARD_SIZE * sizeof(HashTableEntry));
+
+    for (int i = 0; i < CREDIT_CARD_SIZE; i++) {
+        total_amounts.table[i].key = NULL;
+        total_amounts.table[i].value = 0.0;
+    }
+    for (int i = 0; i < 1000000; i++) {
+        char *credit_card = credit_cards[rand() % CREDIT_CARD_SIZE];
+        double amount = charges[i];
+
+        unsigned int index = hash_function(credit_card, total_amounts.size);
+        while (total_amounts.table[index].key != NULL) {
+            if (strcmp(total_amounts.table[index].key, credit_card) == 0) {
+                total_amounts.table[index].value += amount;
+                break;
+            }
+            index = (index + 1) % total_amounts.size;
+        }
+        if (total_amounts.table[index].key == NULL) {
+            total_amounts.table[index].key = strdup(credit_card);
+            total_amounts.table[index].value = amount;
+        }
+    }
+    clock_t end_time = clock();
+    printf("Χρόνος εκτέλεσης Ερωτήματος 2: %lf δευτερόλεπτα\n", ((double)(end_time - start_time)) / CLOCKS_PER_SEC);
+
+    // Ερώτημα 4
+    start_time = clock();
+
+    HashTable hash_table;
+    hash_table.size = HASH_TABLE_SIZE;
+    hash_table.table = (HashTableEntry *)malloc(HASH_TABLE_SIZE * sizeof(HashTableEntry));
+
+    for (int i = 0; i < HASH_TABLE_SIZE; i++) {
+        hash_table.table[i].key = NULL;
+        hash_table.table[i].value = 0.0;
+    }
+    int collisions = 0;
+    for (int i = 0; i < 1000000; i++) {
+        char *credit_card = credit_cards[rand() % CREDIT_CARD_SIZE];
+        double amount = charges[i];
+
+        unsigned int index = hash_function(credit_card, hash_table.size);
+        while (hash_table.table[index].key != NULL) {
+            index = (index + 1) % hash_table.size;
+            collisions++;
+        }
+        hash_table.table[index].key = strdup(credit_card);
+        hash_table.table[index].value = amount;
+    }
+    end_time = clock();
+    printf("Αριθμός συγκρούσεων στον πινακα κατακερματισμού",collisions)
+    print("Χρόνος εκτέλεσης Ερωτήματος 4:", end_time - start_time, "δευτερόλεπτα")
