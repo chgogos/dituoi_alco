@@ -6,7 +6,9 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946).
 
-Τελευταία ενημέρωση: 17/11/2024
+Τελευταία ενημέρωση: 22/11/2024
+
+[Ύλη προόδου](./proodos_20241205.md) - ημερομηνία προόδου 5/12/2024 14:00-16:00
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -17,9 +19,9 @@
 * [<mark>Κεφάλαιο 6Β</mark>](./resources/ada_book/ch06/HashTables_gr.pdf) - Πίνακες κατακερματισμού
 * [<mark>Κεφάλαιο 6Γ</mark>](./resources/ada_book/ch06/CuckooHashing_gr.pdf) - Κατερματισμός κούκου
 * [<mark>Κεφάλαιο 7</mark>](./resources/ada_book/ch07_gr.pdf) - Δομή ένωσης/εύρεσης
-* [Κεφάλαιο 8Α](./resources/ada_book/ch08/MergeSort_gr.pdf) - Ταξινόμηση με συγχώνευση
-* [Κεφάλαιο 8Β](./resources/ada_book/ch08/QuickSort_gr.pdf) - Γρήγορη ταξινόμηση
-* [Κεφάλαιο 8Γ](./resources/ada_book/ch08/SortingLowerBound_gr.pdf) - Κάτω όριο ταξινόμησης (με συγκρίσεις)
+* [<mark>Κεφάλαιο 8Α</mark>](./resources/ada_book/ch08/MergeSort_gr.pdf) - Ταξινόμηση με συγχώνευση
+* [<mark>Κεφάλαιο 8Β</mark>](./resources/ada_book/ch08/QuickSort_gr.pdf) - Γρήγορη ταξινόμηση
+* [<mark>Κεφάλαιο 8Γ</mark>](./resources/ada_book/ch08/SortingLowerBound_gr.pdf) - Κάτω όριο ταξινόμησης (με συγκρίσεις)
 * [Κεφάλαιο 10](./resources/ada_book/ch10_gr.pdf) - Η άπληστη μέθοδος
 * [Κεφάλαιο 11](./resources/ada_book/ch11_gr.pdf) - Διαίρει και βασίλευε
 * [Κεφάλαιο 12Α](./resources/ada_book/ch12/DynamicProgramming_gr.pdf) - Δυναμικός Προγραμματισμός
@@ -293,13 +295,16 @@
    * [graph_traversal.py](./graph_traversal.py) διάσχιση μη κατευθυνόμενου γράφου 
    * [IDEA graph scan](https://idea-instructions.com/graph-scan/)
 
+**Σχεδίαση γράφων**
+
+* [export_to_graphviz.py](./export_to_graphviz.py) εξαγωγή γράφου σε σχήμα με το graphviz
+
 **Ακυκλικοί κατευθυνόμενοι γράφοι (DAGs = Directed Acyclic Graphs)**
 
 * Τοπολογική ταξινόμηση: τοποθέτηση των κορυφών του DAG σε τέτοια σειρά έτσι ώστε αν υπάρχει ακμή από την κορυφή u στην κορυφή v η κορυφή u να προηγείται στη σειρά της κορυφής v
-  * Αλγόριθμος του Kahn
-    * [topological_sort.py](./topological_sort.py)
-  <!-- * DFS -->
-
+* Αλγόριθμος του Kahn και αλγόριθμος που χρησιμοποιεί την αναζήτηση πρώτα σε βάθος
+  * [topological_sort.py](./topological_sort.py) υλοποιήσεις και των 2 αλγορίθμων τοπολογικής διάταξης
+  
 **Λαβύρινθοι**
 
 * [mazelib](https://github.com/john-science/mazelib) βιβλιοθήκη στην python για λαβυρίνθους
@@ -307,22 +312,25 @@
 
 ## 14. Συντομότερα μονοπάτια
 
-  * Αλγόριθμοι single source shortest paths (sssp)
-    * Αλγόριθμος του Dijkstra (άπληστη μέθοδος)
-      * [sssp_dijkstra.py](./sssp_dijkstra.py)
-    * Αλγόριθμος των Bellman-Ford (Δυναμικός Προγραμματισμός)
-      * [sssp_bellman_ford.py](./sssp_bellman_ford.py)
-    * Αλγόριθμος εύρεσης συντομότερων μονοπατιών σε DAGs
-      * [sssp_dag.py](./sssp_dag.py)
-  * Αλγόριθμοι all pairs shortest paths (apsp)
-    * Αλγόριθμος των Floyd-Warshall (Δυναμικός Προγραμματισμός) 
-      * [apsp_floyd_warshall.py](./apsp_floyd_warshall.py)
+* Αλγόριθμοι single source shortest paths (sssp)
+  * Αλγόριθμος του Dijkstra (άπληστη μέθοδος)
+    * [sssp_dijkstra.py](./sssp_dijkstra.py)
+    * [nx_sssp_dijkstra.py](./nx_sssp_dijkstra.py)
+  * Αλγόριθμος των Bellman-Ford (Δυναμικός Προγραμματισμός)
+    * [sssp_bellman_ford.py](./sssp_bellman_ford.py)
+    * [nx_sssp_bellman_ford.py](./nx_sssp_bellman_ford.py)
+  * Αλγόριθμος εύρεσης συντομότερων μονοπατιών σε DAGs
+    * [sssp_dag.py](./sssp_dag.py)
+* Αλγόριθμοι all pairs shortest paths (apsp)
+  * Αλγόριθμος των Floyd-Warshall (Δυναμικός Προγραμματισμός) 
+    * [apsp_floyd_warshall.py](./apsp_floyd_warshall.py)
+    * [nx_apsp_floyd_warshall.py](./nx_apsp_floyd_warshall.py)
 
 ## 15. Ελάχιστα συνεκτικά δέντρα
 
-  * Αλγόριθμος των Prim-Jarnik (υλοποίηση με χρήση ουράς προτεραιότητας)
-  * Αλγόριθμος του Kruskal (υλοποίηση με χρήση ξένων συνόλων)
-  * Αλγόριθμος του Borůvka
+* Αλγόριθμος των Prim-Jarnik (υλοποίηση με χρήση ουράς προτεραιότητας)
+* Αλγόριθμος του Kruskal (υλοποίηση με χρήση ξένων συνόλων)
+* Αλγόριθμος του Borůvka
 
 ## 16. Ροή δικτύου και αντιστοίχιση
 

@@ -42,7 +42,9 @@ def bellman_ford(
                 distances[source] != float("infinity")
                 and distances[source] + weight < distances[dest]
             ):
-                logging.debug(f"Iteration = {iteration+1}, node = {dest}, distance = {distances[dest]} ->  {distances[source] + weight}")
+                logging.debug(
+                    f"Iteration = {iteration+1}, node = {dest}, distance = {distances[dest]} ->  {distances[source] + weight}"
+                )
                 distances[dest] = distances[source] + weight
                 paths[dest] = paths[source] + [dest]
                 relax = True
@@ -130,8 +132,25 @@ def example3():
     print(format_path_distances(distances, paths))
 
 
-# Κατευθυνόμενο γράφημα (Παράδειγμα βιβλίου Goodrich & Tamassia)
+# Κατευθυνόμενο γράφημα (Παράδειγμα βιβλίου Goodrich & Tamassia, κεφάλαιο 14, διαφάνεια 15 - Bellman Ford)
 def example4():
+    G = defaultdict(
+        list,
+        {
+            "A": [(8, "B"), (-2, "C"), (4, "D")],
+            "B": [(-2, "E")],
+            "C": [(7, "B"), (3, "E"), (1, "D")],
+            "D": [(5, "F")],
+            "E": [],
+            "F": [(9, "C")],
+        },
+    )
+    distances, paths = bellman_ford(G, "A")
+    print(format_path_distances(distances, paths))
+
+
+# Κατευθυνόμενο γράφημα (Παράδειγμα βιβλίου Goodrich & Tamassia, κεφάλαιο 14, διαφάνεια 18)
+def example5():
     G = defaultdict(
         list,
         {
@@ -154,3 +173,4 @@ if __name__ == "__main__":
     # example2()
     # example3()
     example4()
+    # example5()
