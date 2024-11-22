@@ -227,6 +227,7 @@
 * <https://www.sortvisualizer.com/>
 * <https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/>
 * <https://tobinatore.github.io/algovis/sorting.html>
+* <https://mszula.github.io/visual-sorting/>
 
 **Κάτω όριο για ταξινόμηση βασισμένη σε συγκρίσεις στοιχείων**
 
