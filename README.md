@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946).
 
-Τελευταία ενημέρωση: 22/11/2024
+Τελευταία ενημέρωση: 25/11/2024
 
 [Ύλη προόδου](./proodos_20241205.md) - ημερομηνία προόδου 5/12/2024 14:00-16:00
 
@@ -221,17 +221,53 @@
 
 ## 8. Αλγόριθμοι Merge-Sort και Quick-Sort
 
-**Οπτικοποιήσεις Quick-Sort και άλλων αλγορίθμων ταξινόμησης**
+| **Αλγόριθμος**       | **Χρονική Πολυπλοκότητα (Χειρότερη Περίπτωση)** | **Χρονική Πολυπλοκότητα (Μέση Περίπτωση)** | **Χρονική Πολυπλοκότητα (Καλύτερη Περίπτωση)** | **Σταθερή Ταξινόμηση (Stable-Sort)** | **Εντός Θέσης (In-Place)** |
+|-----------------------|-------------------------------------------|---------------------------------------|-------------------------------------------|-------------------------|---------------------------|
+| **Selection Sort**    | O(n^2)                                    | O(n^2)                                |  O(n^2)                                   | Όχι                     | Ναι                       |
+| **Insertion Sort**    | O(n^2)                                    | O(n^2)                                |  O(n)                                     | Ναι                     | Ναι                       |
+| **Heap Sort**         | O(n log n)                                | O(n log n)                            |  O(n log n)                               | Όχι                     | Ναι                       |
+| **Merge Sort**        | O(n log n)                                | O(n log n)                            |  O(n log n)                               | Ναι                     | Όχι (απαιτεί επιπλέον μνήμη) |
+| **Quick Sort**        | O(n^2)                                    | O(n log n)                            |  O(n log n)                               | Όχι                     | Ναι                       |
+
+
+### Οπτικοποιήσεις Quick-Sort και άλλων αλγορίθμων ταξινόμησης
 
 * <https://opendsa-server.cs.vt.edu/embed/quicksortAV>
-* <https://www.sortvisualizer.com/>
 * <https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/visualize/>
-* <https://tobinatore.github.io/algovis/sorting.html>
 * <https://mszula.github.io/visual-sorting/>
+* <https://www.sortvisualizer.com/>
+* <https://tobinatore.github.io/algovis/sorting.html>
 
-**Κάτω όριο για ταξινόμηση βασισμένη σε συγκρίσεις στοιχείων**
+### Κάτω όριο για ταξινόμηση βασισμένη σε συγκρίσεις στοιχείων
 
 [Lower bound: Ω(n log n)](https://www.enjoyalgorithms.com/blog/lower-bound-of-comparison-sorting)
+
+### Υλοποιήσεις Merge-Sort και Quick-Sort σε Python
+
+* [sorting_algorithms.py](./sorting_algorithms.py)
+
+### Ταξινόμηση σε διάφορες γλώσσες προγραμματισμού (με κλήσεις συναρτήσεων βιβλιοθηκών)
+
+**Python**
+
+* Ταξινόμηση με την builtin συνάρτηση sorted() της Python και την sort() του NumPy: [sorting_benchmark.py](./sorting_benchmark.py)
+* Ταξινόμηση εγγραφών/αντικειμένων με συναρτήσεις της Python: [sorting_records.py](./sorting_records.py) 
+
+**C**
+
+* [sorting_example1.c](./sorting_example1.c)
+* [sorting_example2.c](./sorting_example2.c)
+
+**C++**
+
+* [sorting_example1.cpp](./sorting_example1.cpp)
+* [sorting_example2.cpp](./sorting_example2.cpp)
+
+**Java**
+
+* [SortingExample1.java](./SortingExample1.java)
+* [SortingExample2.java](./SortingExample2.java)
+
 
 ## 10. Άπληστοι Αλγόριθμοι
 
