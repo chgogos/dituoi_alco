@@ -6,7 +6,7 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946).
 
-Τελευταία ενημέρωση: 25/11/2024
+Τελευταία ενημέρωση: 10/12/2024
 
 [Ύλη προόδου](./proodos_20241205.md) - ημερομηνία προόδου 5/12/2024 14:00-16:00
 
@@ -22,8 +22,8 @@
 * [<mark>Κεφάλαιο 8Α</mark>](./resources/ada_book/ch08/MergeSort_gr.pdf) - Ταξινόμηση με συγχώνευση
 * [<mark>Κεφάλαιο 8Β</mark>](./resources/ada_book/ch08/QuickSort_gr.pdf) - Γρήγορη ταξινόμηση
 * [<mark>Κεφάλαιο 8Γ</mark>](./resources/ada_book/ch08/SortingLowerBound_gr.pdf) - Κάτω όριο ταξινόμησης (με συγκρίσεις)
-* [Κεφάλαιο 10](./resources/ada_book/ch10_gr.pdf) - Η άπληστη μέθοδος
-* [Κεφάλαιο 11](./resources/ada_book/ch11_gr.pdf) - Διαίρει και βασίλευε
+* [<mark>Κεφάλαιο 10</mark>](./resources/ada_book/ch10_gr.pdf) - Η άπληστη μέθοδος
+* [<mark>Κεφάλαιο 11</mark>](./resources/ada_book/ch11_gr.pdf) - Διαίρει και βασίλευε
 * [Κεφάλαιο 12Α](./resources/ada_book/ch12/DynamicProgramming_gr.pdf) - Δυναμικός Προγραμματισμός
 * [Κεφάλαιο 12Β](./resources/ada_book/ch12/TelescopeSchedule_gr.pdf) - Δυναμικός Προγραμματισμός: Προγραμματισμός τηλεσκοπίων
 * [Κεφάλαιο 12Γ](./resources/ada_book/ch12/LCS_gr.pdf) - Δυναμικός Προγραμματισμός: Μέγιστη κοινή υποακολουθία
@@ -290,8 +290,11 @@
 Διάφορα προβλήματα στα οποία εφαρμόζεται η τεχνική "διαίρει και βασίλευε": 
 
 * Δυαδική αναζήτηση
-* Merge-Sort 
+  * <https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search>
+* Merge-Sort
+  * <https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort> 
 * Quick-Sort 
+  * <https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort>
 * Πολλαπλασιασμός ακεραίων με τον αλγόριθμο του Karatsuba
   * <https://brilliant.org/wiki/karatsuba-algorithm/>
   * <https://juris.glaive.pro/blog/karatsuba> 
