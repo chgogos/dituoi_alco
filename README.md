@@ -36,7 +36,7 @@
 * [<mark>Κεφάλαιο 13Γ</mark>](./resources/ada_book/ch13/BFS_gr.pdf) - Αναζήτηση πρώτα σε πλάτος
 * [<mark>Κεφάλαιο 14</mark>](./resources/ada_book/ch14_gr.pdf) - Συντομότερες διαδρομές
 * [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf) - Δέντρα επικάλυψης ελαχίστου κόστους
-* [Κεφάλαιο 16](./resources/ada_book/ch16.pdf) - Μέγιστες ροές
+* [Κεφάλαιο 16](./resources/ada_book/ch16_gr.pdf) - Μέγιστες ροές
 * [<mark>Κεφάλαιο 17Α</mark>](./resources/ada_book/ch17/NPComplete_gr.pdf) - NP πληρότητα
 <!-- * [<mark>Κεφάλαιο 18</mark>](./resources/ada_book/ch18_gr.pdf) - Προσεγγιστικοί αλγόριθμοι -->
 
