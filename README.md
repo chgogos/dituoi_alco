@@ -6,9 +6,12 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946).
 
-Τελευταία ενημέρωση: 10/12/2024
+Τελευταία ενημέρωση: 8/1/2025
 
 [Ύλη προόδου](./proodos_20241205.md) - ημερομηνία προόδου 5/12/2024 14:00-16:00
+[Ύλη τελικών εξετάσεων](./telikes_20250120.md) 
+
+<!-- - ημερομηνία τελικής εξέτασης 20/1/2025 15:00-18:00 -->
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -24,40 +27,34 @@
 * [<mark>Κεφάλαιο 8Γ</mark>](./resources/ada_book/ch08/SortingLowerBound_gr.pdf) - Κάτω όριο ταξινόμησης (με συγκρίσεις)
 * [<mark>Κεφάλαιο 10</mark>](./resources/ada_book/ch10_gr.pdf) - Η άπληστη μέθοδος
 * [<mark>Κεφάλαιο 11</mark>](./resources/ada_book/ch11_gr.pdf) - Διαίρει και βασίλευε
-* [Κεφάλαιο 12Α](./resources/ada_book/ch12/DynamicProgramming_gr.pdf) - Δυναμικός Προγραμματισμός
-* [Κεφάλαιο 12Β](./resources/ada_book/ch12/TelescopeSchedule_gr.pdf) - Δυναμικός Προγραμματισμός: Προγραμματισμός τηλεσκοπίων
-* [Κεφάλαιο 12Γ](./resources/ada_book/ch12/LCS_gr.pdf) - Δυναμικός Προγραμματισμός: Μέγιστη κοινή υποακολουθία
-* [Κεφάλαιο 12Δ](./resources/ada_book/ch12/Knapsack_gr.pdf) - Δυναμικός Προγραμματισμός: Πρόβλημα σακιδίου 0-1
+* [<mark>Κεφάλαιο 12Α</mark>](./resources/ada_book/ch12/DynamicProgramming_gr.pdf) - Δυναμικός Προγραμματισμός: Γινόμενα αλυσίδας πινάκων
+* [<mark>Κεφάλαιο 12Β</mark>](./resources/ada_book/ch12/TelescopeSchedule_gr.pdf) - Δυναμικός Προγραμματισμός: Προγραμματισμός τηλεσκοπίων
+* [<mark>Κεφάλαιο 12Γ</mark>](./resources/ada_book/ch12/LCS_gr.pdf) - Δυναμικός Προγραμματισμός: Μέγιστη κοινή υποακολουθία
+* [<mark>Κεφάλαιο 12Δ</mark>](./resources/ada_book/ch12/Knapsack_gr.pdf) - Δυναμικός Προγραμματισμός: Πρόβλημα σακιδίου 0-1
 * [<mark>Κεφάλαιο 13Α</mark>](./resources/ada_book/ch13/Graph_gr.pdf) - Ορολογία και αναπαραστάσεις γράφων
 * [<mark>Κεφάλαιο 13Β</mark>](./resources/ada_book/ch13/DFS_gr.pdf) - Αναζήτηση πρώτα σε βάθος
 * [<mark>Κεφάλαιο 13Γ</mark>](./resources/ada_book/ch13/BFS_gr.pdf) - Αναζήτηση πρώτα σε πλάτος
 * [<mark>Κεφάλαιο 14</mark>](./resources/ada_book/ch14_gr.pdf) - Συντομότερες διαδρομές
 * [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf) - Δέντρα επικάλυψης ελαχίστου κόστους
 * [Κεφάλαιο 16](./resources/ada_book/ch16.pdf) - Μέγιστες ροές
-* [Κεφάλαιο 17Α](./resources/ada_book/ch17/NPComplete_gr.pdf) - NP πληρότητα
-* [Κεφάλαιο 18](./resources/ada_book/ch18_gr.pdf) - Προσεγγιστικοί αλγόριθμοι
-
-<!-- **Κεφάλαια εντός ύλης:** 
-* Κεφάλαιο 1 
-* Κεφάλαιο 5 
-* Κεφάλαιο 6 
-* Κεφάλαιο 7 
-* Κεφάλαιο 8 
-* Κεφάλαιο 10 
-* Κεφάλαιο 11 
-* Κεφάλαιο 12 (όχι 12.3, 12.4) 
-* Κεφάλαιο 13 (όχι 13.4, 13.5)
-* Κεφάλαιο 14 (όχι 14.5.2) 
-* Κεφάλαιο 15       
-* Κεφάλαιο 16 
-* Κεφάλαιο 17  
-* Κεφάλαιο 18 -->
+* [<mark>Κεφάλαιο 17Α</mark>](./resources/ada_book/ch17/NPComplete_gr.pdf) - NP πληρότητα
+<!-- * [<mark>Κεφάλαιο 18</mark>](./resources/ada_book/ch18_gr.pdf) - Προσεγγιστικοί αλγόριθμοι -->
 
 ## Θέματα προετοιμασίας
 * [Θέματα προετοιμασίας Α](./resources/recitation-a.pdf)
   * [ΛΥΣΕΙΣ](./resources/recitation-a-solutions.pdf) 📌
 * [Θέματα προετοιμασίας Β](./resources/recitation-b.pdf)
   * [ΛΥΣΕΙΣ](./resources/recitation-b-solutions.pdf) 📌
+
+<!-- ## Θέματα παλαιότερων εξετάσεων
+* [Θέματα 1](./resources/20220201-ΤΕΛΙΚΗ%20ΓΡΑΠΤΗ%20ΕΞΕΤΑΣΗ.pdf)
+* [Θέματα 2](./resources/20220627-ΤΕΛΙΚΗ%20ΓΡΑΠΤΗ%20ΕΞΕΤΑΣΗ.pdf)
+* [Θέματα 3](./resources/20220901-ΤΕΛΙΚΗ%20ΓΡΑΠΤΗ%20ΕΞΕΤΑΣΗ.pdf)
+* [Θέματα 4](./resources/20231204-ΕΝΔΙΑΜΕΣΗ%20ΕΞΕΤΑΣΗ.pdf)
+* [Θέματα 5](./resources/20240129-ΤΕΛΙΚΗ%20ΕΞΕΤΑΣΗ.pdf)
+* [Θέματα 6](./resources/20240912Α-ΕΠΑΝΑΛΗΠΤΙΚΗ%20ΕΞΕΤΑΣΗ%20ΣΕΠΤΕΜΒΡΙΟΥ.pdf)
+* [Θέματα 7](./resources/20240912Β-ΕΠΑΝΑΛΗΠΤΙΚΗ%20ΕΞΕΤΑΣΗ%20ΣΕΠΤΕΜΒΡΙΟΥ.pdf)
+* [Θέματα 8](./resources/20241205-ΕΝΔΙΑΜΕΣΗ%20ΕΞΕΤΑΣΗ.pdf) -->
 
 ## 1. Ανάλυση αλγορίθμων
 * [Khan's Academy - Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms#asymptotic-notation)
@@ -319,6 +316,9 @@
 * Διάσχιση γράφου πρώτα κατά πλάτος, διάσχιση γράφου πρώτα κατά βάθος
    * [graph_traversal.py](./graph_traversal.py) διάσχιση μη κατευθυνόμενου γράφου 
    * [IDEA graph scan](https://idea-instructions.com/graph-scan/)
+ * Υλοποιήσεις αλγορίθμων γράφων σε Python
+   * https://stackabuse.com/courses/graphs-in-python-theory-and-implementation/
+   
 
 **Σχεδίαση γράφων**
 
@@ -353,17 +353,21 @@
 
 ## 15. Ελάχιστα συνεκτικά δέντρα
 
-* Αλγόριθμος των Prim-Jarnik (υλοποίηση με χρήση ουράς προτεραιότητας)
-* Αλγόριθμος του Kruskal (υλοποίηση με χρήση ξένων συνόλων)
-* Αλγόριθμος του Borůvka
+* Αλγόριθμος των Prim-Jarnik (χρήση ουράς προτεραιότητας για την υλοποίηση, ενδείκνυται για πυκνούς γράφους)
+  * <https://algorithms.discrete.ma.tum.de/graph-algorithms/mst-prim/index_en.html>
+* Αλγόριθμος του Kruskal (χρήση ξένων συνόλων για την υλοποίηση, ενδείκνυται για αραιούς γράφους)
+  * <https://algorithms.discrete.ma.tum.de/graph-algorithms/mst-kruskal/index_en.html>
+* Αλγόριθμος του Borůvka (χρήση παράλληλης ή κατανεμημένης εκτλέλεσης για την υλοποίηση, ενδείκνυται για μεγάλους γράφους)
 
 ## 16. Ροή δικτύου και αντιστοίχιση
-
+* Αλγόριθμος των Ford-Fulkerson για εύρεση της μέγιστης ροής (maximum-flow) σε ένα δίκτυο ροής (Network Flow)
+  * https://algorithms.discrete.ma.tum.de/graph-algorithms/flow-ford-fulkerson/index_en.html
 
 ## 17. NP-πληρότητα
 
+* [Biggest Puzzle in Computer Science: P vs. NP by the Quanta Magazine](https://www.youtube.com/watch?v=pQsdygaYcE4)
 
-## 18. Προσεγγιστικοί αλγόριθμοι
+<!-- ## 18. Προσεγγιστικοί αλγόριθμοι -->
 
 
 ---
