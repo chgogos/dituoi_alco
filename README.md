@@ -6,13 +6,13 @@
 
 Σελίδα ecourse του μαθήματος [ecourse UoI](https://ecourse.uoi.gr/course/view.php?id=1946).
 
-Τελευταία ενημέρωση: 8/1/2025
+Τελευταία ενημέρωση: 10/1/2025
 
 [Ύλη προόδου](./proodos_20241205.md) - ημερομηνία προόδου 5/12/2024 14:00-16:00
 
-[Ύλη τελικών εξετάσεων](./telikes_20250120.md) 
+[Ύλη τελικών εξετάσεων](./telikes_20250120.md) -  ημερομηνία τελικής εξέτασης 20/1/2025 15:00-18:00 
 
-<!-- - ημερομηνία τελικής εξέτασης 20/1/2025 15:00-18:00 -->
+Μπορείτε να έχετε στις εξετάσεις μαζί σας εκτυπωμένο το [cheatsheet της Python](./resources/cheat_sheet-python-final-medium.pdf).
 
 **Παρουσιάσεις από το βιβλίο "Αλγόριθμοι Σχεδίαση και Εφαρμογές" των M. Goodrich και R. Tamassia**
 
@@ -36,8 +36,8 @@
 * [<mark>Κεφάλαιο 13Β</mark>](./resources/ada_book/ch13/DFS_gr.pdf) - Αναζήτηση πρώτα σε βάθος
 * [<mark>Κεφάλαιο 13Γ</mark>](./resources/ada_book/ch13/BFS_gr.pdf) - Αναζήτηση πρώτα σε πλάτος
 * [<mark>Κεφάλαιο 14</mark>](./resources/ada_book/ch14_gr.pdf) - Συντομότερες διαδρομές
-* [Κεφάλαιο 15](./resources/ada_book/ch15_gr.pdf) - Δέντρα επικάλυψης ελαχίστου κόστους
-* [Κεφάλαιο 16](./resources/ada_book/ch16_gr.pdf) - Μέγιστες ροές
+* [<mark>Κεφάλαιο 15</mark>](./resources/ada_book/ch15_gr.pdf) - Δέντρα επικάλυψης ελαχίστου κόστους
+* [<mark>Κεφάλαιο 16</mark>](./resources/ada_book/ch16_gr.pdf) - Μέγιστες ροές
 * [<mark>Κεφάλαιο 17Α</mark>](./resources/ada_book/ch17/NPComplete_gr.pdf) - NP πληρότητα
 <!-- * [<mark>Κεφάλαιο 18</mark>](./resources/ada_book/ch18_gr.pdf) - Προσεγγιστικοί αλγόριθμοι -->
 
@@ -437,22 +437,17 @@
 
   * Λύση: [brute_force1.py](./brute_force1.py)
 
- 
-
 
 <!-- 4. Γράψτε πρόγραμμα που να δέχεται μια λίστα τιμών και να επιστρέφει αν υπάρχει υποσύνολο των τιμών  της λίστας με άθροισμα μηδέν.
    
 1. Γράψτε ένα πρόγραμμα που να ανιχνεύει αν σε ένα κατευθυνόμενο γράφο υπάρχει κύκλος. -->
-
-
-
 
 ## Εκμάθηση Python
 
 * <https://pythoninstitute.org/>
   * [Python Essentials 1](https://pythoninstitute.org/python-essentials-1)
   * [Python Essentials 2](https://pythoninstitute.org/python-essentials-2)
-* [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/index.html)
+<!-- * [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/index.html) -->
 
 ## Εξάσκηση σε διάφορα αλγοριθμικά προβλήματα
 
