@@ -56,6 +56,7 @@
 * [Θέματα 6](./resources/20240912Α-ΕΠΑΝΑΛΗΠΤΙΚΗ%20ΕΞΕΤΑΣΗ%20ΣΕΠΤΕΜΒΡΙΟΥ.pdf)
 * [Θέματα 7](./resources/20240912Β-ΕΠΑΝΑΛΗΠΤΙΚΗ%20ΕΞΕΤΑΣΗ%20ΣΕΠΤΕΜΒΡΙΟΥ.pdf)
 * [Θέματα 8](./resources/20241205-ΕΝΔΙΑΜΕΣΗ%20ΕΞΕΤΑΣΗ.pdf)
+* [Θέματα 9](./resources/20250604-ΕΜΒΟΛΙΜΗ%20ΕΞΕΤΑΣΗ%20ΙΟΥΝΙΟΥ.pdf)
 
 ## 1. Ανάλυση αλγορίθμων
 * [Khan's Academy - Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms#asymptotic-notation)
